@@ -267,8 +267,10 @@
       const dost = val('dost'), km = val('km');
       let tr;
       if (dost === 'odbior') tr = 'odbiór własny';
-      else if (km === '20+' || matN > 1 || (matT > 4 && matT <= 25)) { tr = 'do ustalenia'; unknown.push('transport'); }
-      else if (matT > 25) tr = 'gratis';
+      else if (km === '20+') { tr = 'dopłata – ustalimy'; unknown.push('transport'); }
+      else if (matT >= 25) tr = 'gratis';
+      else if (matT > 4) { tr = 'dopłata – ustalimy'; unknown.push('transport'); }
+      else if (matN > 1) { tr = 'do ustalenia'; unknown.push('transport'); }
       else { tr = '250 zł'; total += 250; }
       lines.push(['Transport', tr]);
       msg.push('Dostawa: ' + (dost === 'odbior' ? 'odbiór własny' : 'z dowozem (' + (km === '20+' ? 'powyżej 20 km' : 'do 20 km') + ')'));
