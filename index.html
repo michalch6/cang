@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>CAN – ziemia przesiana, kruszywa, koparko-ładowarka | Kamienna Góra</title>
 <meta name="description" content="Ziemia przesiana 80 zł/t, kruszywa granitowe od 45 zł/t, koparko-ładowarka 200 zł/h, minikoparka 120 zł/h, 3-osobowa ekipa budowlana. Dowóz, transport gratis powyżej 25 t. Kamienna Góra i okolice, tel. 504 409 208.">
-<meta name="theme-color" content="#121211">
+<meta name="theme-color" content="#111110">
 <script>(function(d){var h=d.documentElement;h.className=h.className.replace('no-js','js');try{if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){h.classList.add('intro');window.__introT=setTimeout(function(){h.classList.remove('intro')},2500)}}catch(e){}})(document);</script>
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pl_PL">
@@ -25,9 +25,10 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
 <link rel="preload" href="fonts/barlow-condensed-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/jetbrains-mono-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/barlow-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/koparka-volvo-m.jpg" imagesrcset="img/koparka-volvo-m.jpg 540w, img/koparka-volvo.jpg 1050w" imagesizes="(min-width: 1000px) 48vw, 100vw">
 <style>
-  /* ---------- Fonts (hosted with the site; Barlow & JetBrains Mono, SIL Open Font License) ---------- */
+  /* ---------- Fonts (hosted with the site; Barlow, SIL Open Font License) ---------- */
   @font-face{font-family:"Barlow Condensed";font-weight:700;font-display:swap;src:url(fonts/barlow-condensed-latin-ext-700-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1E9F,U+20A0-20AB,U+20AD-20C0,U+2C60-2C7F,U+A720-A7FF}
   @font-face{font-family:"Barlow Condensed";font-weight:700;font-display:swap;src:url(fonts/barlow-condensed-latin-700-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
   @font-face{font-family:"Barlow Condensed";font-weight:800;font-display:swap;src:url(fonts/barlow-condensed-latin-ext-800-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1E9F,U+20A0-20AB,U+20AD-20C0,U+2C60-2C7F,U+A720-A7FF}
@@ -36,436 +37,394 @@
   @font-face{font-family:"Barlow";font-weight:400;font-display:swap;src:url(fonts/barlow-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
   @font-face{font-family:"Barlow";font-weight:600;font-display:swap;src:url(fonts/barlow-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1E9F,U+20A0-20AB,U+20AD-20C0,U+2C60-2C7F,U+A720-A7FF}
   @font-face{font-family:"Barlow";font-weight:600;font-display:swap;src:url(fonts/barlow-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-  @font-face{font-family:"JetBrains Mono";font-weight:500;font-display:swap;src:url(fonts/jetbrains-mono-latin-ext-500-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1E9F,U+20A0-20AB,U+20AD-20C0,U+2C60-2C7F,U+A720-A7FF}
-  @font-face{font-family:"JetBrains Mono";font-weight:500;font-display:swap;src:url(fonts/jetbrains-mono-latin-500-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
 
-  /* ---------- Tokens: Swiss industrial print — concrete paper, carbon ink, safety yellow ---------- */
+  /* ---------- Tokens: dark, high contrast, safety yellow, cut steel corners ---------- */
   :root{
-    --paper:#ECE9E2;--paper-2:#E2DED5;--sheet:#F5F3EE;
-    --ink:#121211;--ink-2:#34332F;--muted:#67645D;--hair:rgba(18,18,17,.18);
-    --y:#F5B315;--y-2:#FFC63F;
+    --bg:#111110;--bg-2:#191917;--bg-3:#22221F;--line:#2F2E2A;
+    --text:#F3F1EA;--muted:#BDB8AC;--y:#F5B315;--y-2:#FFC845;--ink:#111110;
     --cond:"Barlow Condensed","Arial Narrow",Impact,sans-serif;
     --body:"Barlow","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-    --wrap:1280px;--g:16px;--header-h:60px;
+    --wrap:1280px;--g:18px;--header-h:62px;--cut:16px;
     --snap:cubic-bezier(.2,.9,.1,1);
   }
-  @media (min-width:768px){:root{--g:32px}}
+  @media (min-width:768px){:root{--g:36px}}
 
-  *,*::before,*::after{box-sizing:border-box;border-radius:0}
-  html{-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-padding-top:calc(var(--header-h) + 8px)}
+  *,*::before,*::after{box-sizing:border-box}
+  html{-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-padding-top:calc(var(--header-h) + 8px);color-scheme:dark}
   html:not(.lenis){scroll-behavior:smooth}
   html.lenis,html.lenis body{height:auto}
   .lenis:not(.lenis-autoToggle).lenis-stopped{overflow:clip}
   .lenis [data-lenis-prevent]{overscroll-behavior:contain}
-  body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.55 var(--body);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:clip;
-    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
-  img,svg,canvas{display:block;max-width:100%}
+  body{margin:0;background:var(--bg);color:var(--text);font:400 18px/1.6 var(--body);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:clip}
+  img{display:block;max-width:100%}
+  svg{display:block}
   a{color:inherit}
   p{margin:0;text-wrap:pretty}
-  h1,h2,h3,h4{margin:0;font-family:var(--cond);font-weight:800;text-transform:uppercase;line-height:.88;letter-spacing:-.005em;text-wrap:balance}
-  h2 em,h3 em,.mark{font-style:normal;background:linear-gradient(transparent 58%,var(--y) 58%,var(--y) 94%,transparent 94%);padding:0 .06em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+  h1,h2,h3,h4{margin:0;font-family:var(--cond);font-weight:800;text-transform:uppercase;line-height:.92;letter-spacing:0;text-wrap:balance}
+  h2 em,h3 em{font-style:normal;color:var(--y)}
   button,a,summary,label{touch-action:manipulation}
   .wrap{max-width:var(--wrap);margin-inline:auto;padding-inline:var(--g)}
   .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
-  .skip{position:fixed;left:8px;top:-80px;z-index:100;background:var(--y);color:var(--ink);padding:12px 16px;border:2px solid var(--ink);font:700 14px var(--mono);text-decoration:none}
+  .skip{position:fixed;left:8px;top:-80px;z-index:100;background:var(--y);color:var(--ink);padding:12px 16px;font-weight:600;text-decoration:none}
   .skip:focus{top:8px}
-  :focus-visible{outline:3px solid var(--ink);outline-offset:3px}
-  .top :focus-visible,.bar :focus-visible,.lb :focus-visible,.dep :focus-visible{outline-color:var(--y)}
-  .ic{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter}
-  .meta{font:500 11.5px/1.35 var(--mono);letter-spacing:.06em;text-transform:uppercase}
+  :focus-visible{outline:3px solid var(--y);outline-offset:3px}
+  .ic{width:22px;height:22px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .cut{clip-path:polygon(0 0,calc(100% - var(--cut)) 0,100% var(--cut),100% 100%,0 100%)}
+  .kicker{font:700 16px/1.2 var(--cond);letter-spacing:.12em;text-transform:uppercase;color:var(--y)}
 
-  /* Buttons — hard offset shadow, press drops it */
-  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 20px;border:2px solid var(--ink);background:var(--y);color:var(--ink);font:800 19px/1 var(--cond);letter-spacing:.05em;text-transform:uppercase;text-decoration:none;cursor:pointer;box-shadow:4px 4px 0 var(--ink);-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;transition:transform .12s var(--snap),box-shadow .12s var(--snap),background-color .15s,color .15s}
-  .btn:active{transform:translate(4px,4px);box-shadow:0 0 0 var(--ink)}
-  .btn-ink{background:var(--ink);color:var(--paper)}
-  .btn-ink .ic{color:var(--y)}
-  .btn-paper{background:var(--sheet)}
-  @media (hover:hover) and (pointer:fine){
-    .btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink)}
-    .btn:hover:active{transform:translate(4px,4px);box-shadow:0 0 0 var(--ink)}
-  }
+  /* Buttons: cut corner, big, high contrast */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:58px;padding:0 26px;border:0;background:var(--y);color:var(--ink);font:800 20px/1 var(--cond);letter-spacing:.05em;text-transform:uppercase;text-decoration:none;cursor:pointer;clip-path:polygon(0 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%);-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;transition:transform .14s var(--snap),background-color .2s,color .2s}
+  .btn:active{transform:scale(.97)}
+  .btn:focus-visible{outline:none;box-shadow:inset 0 0 0 3px var(--ink),inset 0 0 0 6px var(--y-2)}
+  .btn-dark{background:var(--bg-3);color:var(--text)}
+  .btn-dark .ic{color:var(--y)}
+  .btn-dark:focus-visible{box-shadow:inset 0 0 0 3px var(--y)}
+  @media (hover:hover) and (pointer:fine){.btn:hover{background:var(--y-2)}.btn-dark:hover{background:#2D2D29}}
   .add .a-on{display:none}
-  .add .a-off,.add .a-on{align-items:center;gap:8px}
+  .add .a-off,.add .a-on{align-items:center;gap:10px}
   .add .a-off{display:inline-flex}
-  .add[aria-pressed="true"]{background:var(--y);color:var(--ink)}
+  .add[aria-pressed="true"]{background:var(--text);color:var(--ink)}
   .add[aria-pressed="true"] .ic{color:var(--ink)}
   .add[aria-pressed="true"] .a-on{display:inline-flex}
   .add[aria-pressed="true"] .a-off{display:none}
 
-  /* ---------- Header (hides on scroll down) ---------- */
-  .top{position:fixed;inset:0 0 auto 0;z-index:50;background:var(--ink);color:var(--paper);padding-top:env(safe-area-inset-top,0px);transition:transform .35s var(--snap)}
-  .top.hide{transform:translateY(calc(-100% - 6px))}
+  /* ---------- Header ---------- */
+  .top{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(17,17,16,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);padding-top:env(safe-area-inset-top,0px);transition:transform .35s var(--snap)}
+  .top.hide{transform:translateY(calc(-100% - 5px))}
   .top::after{content:"";position:absolute;left:0;right:0;bottom:-5px;height:5px;background:repeating-linear-gradient(-45deg,var(--y) 0 10px,var(--ink) 10px 20px)}
   .top .wrap{height:var(--header-h);display:flex;align-items:center;justify-content:space-between;gap:12px}
-  .brand img{height:36px;width:auto}
-  .nav{display:flex;align-items:center;gap:22px}
-  .nav .nl{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:#BDB9AF;text-decoration:none;padding:6px 0}
-  .nav .nl.on{color:var(--y)}
-  @media (hover:hover) and (pointer:fine){.nav .nl:hover{color:var(--paper)}}
-  .order-btn{align-items:center;gap:8px;min-height:40px;padding:0 12px;border:1.5px solid var(--paper);color:var(--paper);font:500 12px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;text-decoration:none}
-  .order-btn b,.bar .b2 b{display:inline-grid;place-items:center;min-width:22px;height:22px;padding:0 5px;background:var(--y);color:var(--ink);font:700 13px/1 var(--mono)}
+  .brand img{height:38px;width:auto}
+  .nav{display:flex;align-items:center;gap:24px}
+  .nav .nl{font:700 17px/1 var(--cond);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:8px 0;border-bottom:2px solid transparent}
+  .nav .nl.on{color:var(--text);border-bottom-color:var(--y)}
+  @media (hover:hover) and (pointer:fine){.nav .nl:hover{color:var(--text)}}
+  .order-btn{align-items:center;gap:10px;min-height:44px;padding:0 14px;background:var(--bg-3);color:var(--text);font:700 17px/1 var(--cond);letter-spacing:.08em;text-transform:uppercase;text-decoration:none}
+  .order-btn b,.bar .b2 b{display:inline-grid;place-items:center;min-width:24px;height:24px;padding:0 6px;background:var(--y);color:var(--ink);font:800 16px/1 var(--cond)}
   .pop{animation:pop .4s var(--snap)}
   @keyframes pop{40%{transform:scale(1.35)}}
-  .call{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 12px;background:var(--y);color:var(--ink);font:800 17px/1 var(--cond);letter-spacing:.05em;text-decoration:none;transition:transform .12s var(--snap)}
+  .call{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;background:var(--y);color:var(--ink);font:800 19px/1 var(--cond);letter-spacing:.04em;text-decoration:none;clip-path:polygon(0 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%);transition:transform .12s var(--snap)}
   .call:active{transform:scale(.96)}
   .only-lg{display:none!important}
   @media (min-width:1080px){.only-lg{display:inline-flex!important}}
   @media (max-width:360px){.call .t{display:none}}
 
-  /* ---------- Hero ---------- */
-  .hero{position:relative;padding:calc(var(--header-h) + 34px) 0 0;overflow:hidden;border-bottom:2px solid var(--ink);isolation:isolate}
-  .hero::before{content:"";position:absolute;inset:0;z-index:-2;background-image:linear-gradient(var(--hair) 1px,transparent 1px),linear-gradient(90deg,var(--hair) 1px,transparent 1px);background-size:48px 48px;opacity:.45;-webkit-mask-image:linear-gradient(180deg,#000 30%,transparent 100%);mask-image:linear-gradient(180deg,#000 30%,transparent 100%)}
-  .topo{position:absolute;inset:0;z-index:-1;width:100%;height:100%;pointer-events:none}
-  .hero-g{display:grid;gap:22px;position:relative}
-  @media (min-width:1000px){.hero-g{grid-template-columns:repeat(12,minmax(0,1fr));column-gap:24px;row-gap:26px;align-items:start}}
-  .h-top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 16px;padding-bottom:12px;border-bottom:1px solid var(--ink)}
-  @media (min-width:1000px){.h-top{grid-column:1/-1}}
-  .h1{font-size:min(calc((100vw - 2 * var(--g)) / 5.85),136px);line-height:.86;letter-spacing:-.012em}
-  @media (min-width:1000px){.h1{font-size:min(calc((100vw - 64px) * .62 / 5.85),136px)}}
+  /* ---------- Hero: photo half + text half, diagonal tape ---------- */
+  .hero{position:relative;padding-top:calc(var(--header-h) + env(safe-area-inset-top,0px));overflow:hidden}
+  .hero-media{position:relative;height:min(46svh,440px);overflow:hidden;background:#000}
+  .hero-media img{width:100%;height:100%;object-fit:cover;object-position:50% 64%}
+  .hero-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,17,16,.25) 0%,rgba(17,17,16,0) 30%,rgba(17,17,16,.15) 70%,var(--bg) 100%)}
+  .hero-txt{position:relative;z-index:2;display:grid;gap:22px;padding-top:44px;padding-bottom:44px}
+  .h1{font-size:min(calc((100vw - 2 * var(--g)) / 5.7),118px);line-height:.88}
   .h1 .ln{display:block}
-  .h1 .ln>span{display:inline-block;position:relative;z-index:0;white-space:nowrap}
-  .h1 .hl>span::before{content:"";position:absolute;left:-.04em;right:-.04em;top:.16em;bottom:.04em;z-index:-1;background:var(--y);transform-origin:0 50%;transform:scaleX(var(--hx,1))}
-  @media (min-width:1000px){.h1{grid-column:1/9}}
-  .board{display:grid;gap:8px}
-  @media (min-width:1000px){.board{grid-column:1/9}}
-  .flap{display:inline-flex;gap:3px;font:800 clamp(24px,7.4vw,40px)/1 var(--cond);letter-spacing:0;color:var(--y);-webkit-user-select:none;user-select:none}
-  .flap .t{position:relative;width:.82em;height:1.16em;background:var(--ink);perspective:400px;overflow:hidden;box-shadow:inset 0 -2px 0 rgba(0,0,0,.4)}
-  .flap .t::after{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:rgba(236,233,226,.22);z-index:9}
-  .flap .h,.flap .f{position:absolute;left:0;width:100%;height:50%;overflow:hidden;background:var(--ink);backface-visibility:hidden}
-  .flap .up,.flap .front{top:0}
-  .flap .dn,.flap .back{bottom:0;background:#1B1B19}
-  .flap .c{position:absolute;left:0;width:100%;height:200%;display:flex;align-items:center;justify-content:center}
-  .flap .up .c,.flap .front .c{top:0}
-  .flap .dn .c,.flap .back .c{bottom:0}
-  .flap .f{z-index:5;will-change:transform}
-  .flap .front{transform-origin:50% 100%;animation:flapF var(--fd,.07s) linear both}
-  .flap .back{transform-origin:50% 0;animation:flapB var(--fd,.07s) linear both}
-  @keyframes flapF{to{transform:rotateX(-90deg)}}
-  @keyframes flapB{0%,50%{transform:rotateX(90deg)}to{transform:rotateX(0)}}
-  .flap-fallback{font:800 28px/1 var(--cond);color:var(--ink);text-transform:uppercase}
-  .flap:not(.built){color:var(--ink)}
-  .dep .flap:not(.built){color:var(--y)}
-  .lead{max-width:44ch;font-size:18px;color:var(--ink-2)}
-  @media (min-width:1000px){.lead{grid-column:1/7;font-size:19px}}
-  .ctas{display:flex;flex-wrap:wrap;gap:14px 16px}
+  .h1 .ln>span{display:inline-block;white-space:nowrap}
+  .h1 .y{color:var(--y)}
+  .lead{max-width:40ch;font-size:19px;color:var(--muted)}
+  .lead strong{color:var(--text);font-weight:600}
+  .ctas{display:flex;flex-wrap:wrap;gap:12px}
   @media (max-width:479px){.hero .ctas .btn{flex:1 1 100%}}
-  @media (min-width:1000px){.hero .ctas{grid-column:1/9}}
-  .h-fig{margin:0;position:relative}
-  @media (min-width:1000px){.h-fig{grid-column:9/-1;grid-row:2/span 4}}
-  .frame{position:relative;border:2px solid var(--ink);background:var(--ink);aspect-ratio:4/5;overflow:hidden}
-  .frame img{width:100%;height:100%;object-fit:cover;filter:grayscale(.15) contrast(1.06)}
-  .ht{position:absolute;inset:0;pointer-events:none;--r:0px;background:radial-gradient(circle,var(--paper) var(--r),transparent calc(var(--r) * 1.12)) 0 0/8px 8px}
-  .dots{position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle,rgba(18,18,17,.5) .8px,transparent 1.2px) 0 0/4px 4px;mix-blend-mode:multiply;opacity:.35}
-  .crn{position:absolute;width:18px;height:18px;border:0 solid var(--y);z-index:2}
-  .crn.a{top:10px;left:10px;border-top-width:3px;border-left-width:3px}
-  .crn.b{top:10px;right:10px;border-top-width:3px;border-right-width:3px}
-  .crn.c{bottom:10px;left:10px;border-bottom-width:3px;border-left-width:3px}
-  .crn.d{bottom:10px;right:10px;border-bottom-width:3px;border-right-width:3px}
-  .fig-cap{display:flex;justify-content:space-between;gap:12px;margin-top:8px}
-  .stamp{position:absolute;right:-6px;top:22px;z-index:3;padding:8px 10px;background:var(--y);border:2px solid var(--ink);font:800 18px/1 var(--cond);text-transform:uppercase;transform:rotate(3deg);box-shadow:3px 3px 0 var(--ink)}
-  .stamp small{display:block;margin-top:3px;font:500 10px/1.2 var(--mono);letter-spacing:.06em}
-  .h-spec{display:grid;grid-template-columns:1fr 1fr;gap:2px;margin:6px calc(var(--g) * -1) 0;padding:2px 0 0;background:var(--ink)}
-  @media (min-width:1000px){.h-spec{grid-column:1/-1;grid-template-columns:repeat(4,1fr);margin:10px 0 0;border:2px solid var(--ink);border-bottom:0;padding:0}}
-  .h-spec>div{background:var(--paper);padding:14px var(--g) 16px}
-  @media (min-width:1000px){.h-spec>div{padding:18px 22px 20px}}
-  .h-spec dt{font:500 11px/1.3 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-  .h-spec dd{margin:6px 0 0;font:800 clamp(34px,9vw,52px)/.9 var(--cond)}
-  .h-spec dd small{font:500 12px/1 var(--mono);margin-left:6px;letter-spacing:.04em;text-transform:uppercase}
-  .h-spec .free{background:var(--y)}
-  .h-spec .free dt{color:var(--ink)}
-  .h-spec .free dd small{display:block;margin:6px 0 0}
-  .cross{position:absolute;inset:0;z-index:1;pointer-events:none;opacity:0;transition:opacity .3s}
-  .cross.on{opacity:1}
-  .cross i{position:absolute;background:rgba(18,18,17,.35)}
-  .cross .cx{left:0;right:0;top:0;height:1px}
-  .cross .cy{top:0;bottom:0;left:0;width:1px}
-  .cross span{position:absolute;left:0;top:0;padding:3px 6px;background:var(--ink);color:var(--y)}
+  .tape{position:absolute;left:-5%;right:-5%;z-index:3;transform:rotate(-3deg);background:var(--y);color:var(--ink);overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.45)}
+  .tape .tr{display:flex;width:max-content;animation:tape 26s linear infinite}
+  .tape span{display:inline-flex;align-items:center;gap:18px;padding:11px 18px 11px 0;font:800 clamp(18px,4.4vw,26px)/1 var(--cond);letter-spacing:.04em;text-transform:uppercase;white-space:nowrap}
+  .tape span i{width:10px;height:10px;background:var(--ink);transform:rotate(45deg);flex:none}
+  @keyframes tape{to{transform:translateX(-50%)}}
+  .hero .tape{top:calc(var(--header-h) + min(46svh,440px) - 34px)}
+  @media (min-width:1000px){
+    .hero{display:grid;grid-template-columns:1.02fr .98fr;min-height:min(100svh,900px)}
+    .hero-media{grid-column:2;grid-row:1;height:auto;min-height:100%}
+    .hero-media::after{background:linear-gradient(90deg,var(--bg) 0%,rgba(17,17,16,.2) 22%,rgba(17,17,16,0) 45%)}
+    .hero-txt{grid-column:1;grid-row:1;align-content:center;padding:70px 40px 120px var(--g);max-width:calc(var(--wrap) / 2 + 40px);margin-left:auto;width:100%}
+    .h1{font-size:min(calc((50vw - 80px) / 5.7),118px)}
+    .hero .tape{top:auto;bottom:56px;transform:rotate(-2deg)}
+  }
 
-  /* Velocity ticker */
-  .ticker{background:var(--y);border-bottom:2px solid var(--ink);overflow:hidden;padding:10px 0}
+  /* Price bar */
+  .pricebar{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--line);border-block:2px solid var(--line)}
+  @media (min-width:900px){.pricebar{grid-template-columns:repeat(4,1fr)}}
+  .pb{background:var(--bg-2);padding:18px var(--g) 20px}
+  @media (min-width:900px){.pb{padding:24px 28px 26px}}
+  .pb small{display:block;font:700 15px/1.2 var(--cond);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .pb b{display:block;margin-top:6px;font:800 clamp(42px,10vw,60px)/.9 var(--cond);color:var(--y)}
+  .pb b span+span{font-size:.4em;color:var(--text);margin-left:4px;letter-spacing:.03em}
+
+  /* Ticker */
+  .ticker{background:var(--y);color:var(--ink);overflow:hidden;padding:12px 0}
   .ticker .row{display:flex;width:max-content;white-space:nowrap;will-change:transform}
-  .ticker .row span{display:inline-flex;align-items:center;gap:22px;padding-right:22px;font:800 clamp(30px,7vw,64px)/1.05 var(--cond);text-transform:uppercase;letter-spacing:.01em}
-  .ticker .row span i{font-style:normal;font-family:var(--mono);font-weight:500;font-size:.5em;letter-spacing:-.05em}
-  .ticker .row.o span{color:transparent;-webkit-text-stroke:1.5px var(--ink)}
+  .ticker .row span{display:inline-flex;align-items:center;gap:22px;padding-right:22px;font:800 clamp(30px,7vw,60px)/1.05 var(--cond);text-transform:uppercase;letter-spacing:.01em}
+  .ticker .row span i{width:14px;height:14px;background:var(--ink);transform:rotate(45deg);flex:none}
 
-  /* Equation band */
-  .eq{border-bottom:2px solid var(--ink)}
-  .eq-g{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--ink)}
-  @media (min-width:900px){.eq-g{grid-template-columns:repeat(4,1fr) 1.3fr;border-inline:2px solid var(--ink)}}
-  .eq-c{position:relative;background:var(--paper);padding:18px 16px 20px;min-height:124px;display:flex;flex-direction:column;justify-content:space-between;gap:16px}
-  .eq-c b{font:800 clamp(28px,6vw,44px)/.9 var(--cond);text-transform:uppercase}
-  .eq-c .op{position:absolute;right:-14px;top:50%;z-index:2;display:grid;place-items:center;width:26px;height:26px;margin-top:-13px;background:var(--ink);color:var(--y);font:700 18px/1 var(--mono)}
+  /* Equation */
+  .eq-g{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--line)}
+  @media (min-width:900px){.eq-g{grid-template-columns:repeat(4,1fr) 1.3fr}}
+  .eq-c{position:relative;background:var(--bg);padding:26px var(--g) 28px;min-height:128px;display:flex;flex-direction:column;justify-content:flex-end;gap:10px}
+  @media (min-width:900px){.eq-c{padding:30px 28px}}
+  .eq-c small{font:700 15px/1 var(--cond);letter-spacing:.1em;color:var(--y)}
+  .eq-c b{font:800 clamp(30px,6vw,46px)/.9 var(--cond);text-transform:uppercase}
+  .eq-c .op{position:absolute;right:-16px;top:50%;z-index:2;display:grid;place-items:center;width:30px;height:30px;margin-top:-15px;background:var(--y);color:var(--ink);font:800 24px/1 var(--cond)}
   .eq-c:nth-child(2) .op{display:none}
   @media (min-width:900px){.eq-c:nth-child(2) .op{display:grid}}
-  .eq-r{grid-column:1/-1;background:var(--y)}
+  .eq-r{grid-column:1/-1;background:var(--y);color:var(--ink)}
+  .eq-r small{color:var(--ink)}
   @media (min-width:900px){.eq-r{grid-column:auto}}
-  .eq-r b{font-size:clamp(34px,7vw,56px)}
+  .eq-r b{font-size:clamp(36px,7vw,58px)}
 
   /* ---------- Sections ---------- */
-  .sec{position:relative;padding:0 0 84px;border-bottom:2px solid var(--ink)}
-  @media (min-width:1000px){.sec{padding-bottom:120px}}
-  .sh{display:flex;justify-content:space-between;align-items:stretch;gap:12px;margin-bottom:34px;border-bottom:1px solid var(--ink)}
-  .tab{display:inline-flex;align-items:center;gap:12px;padding:10px 14px;background:var(--ink);color:var(--paper);font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase}
-  .tab b{color:var(--y);font-weight:700}
-  .sh .meta{align-self:center;color:var(--muted);text-align:right}
-  .sec h2,.con h2{font-size:clamp(52px,13vw,128px);max-width:14ch}
-  .intro{margin-top:22px;max-width:52ch;font-size:18px;color:var(--ink-2)}
-  .sec-head{margin-bottom:40px}
-  @media (min-width:1000px){.sec-head{display:grid;grid-template-columns:1.3fr .7fr;gap:40px;align-items:end;margin-bottom:56px}.sec-head .intro{margin:0}}
+  .sec{position:relative;padding:88px 0 96px}
+  @media (min-width:1000px){.sec{padding:128px 0 136px}}
+  .alt{background:var(--bg-2)}
+  .sh{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;align-items:end;margin-bottom:24px}
+  .sh .num{grid-row:span 2;font:800 clamp(72px,18vw,150px)/.78 var(--cond);color:transparent;-webkit-text-stroke:2px var(--y)}
+  .sh h2{font-size:clamp(44px,10.5vw,96px)}
+  .intro{max-width:56ch;margin-bottom:44px;font-size:19px;color:var(--muted)}
+  @media (min-width:1000px){.intro{margin-bottom:60px}}
 
-  /* Materials — datasheet cards on an ink grid */
-  .mats{display:grid;gap:2px;background:var(--ink);border:2px solid var(--ink)}
+  /* Materials */
+  .mats{display:grid;gap:20px}
   @media (min-width:900px){.mats{grid-template-columns:repeat(3,1fr)}}
-  .mat{display:flex;flex-direction:column;background:var(--sheet)}
-  .mat-ph{position:relative;aspect-ratio:16/11;overflow:hidden;border-bottom:2px solid var(--ink);background:var(--ink)}
-  .mat-ph img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.1);transition:filter .6s var(--snap),transform .9s var(--snap)}
-  .mat.on .mat-ph img{filter:none}
-  @media (hover:hover) and (pointer:fine){.mat:hover .mat-ph img{filter:none;transform:scale(1.04)}}
-  .mat-ph .meta{position:absolute;left:0;top:0;padding:6px 8px;background:var(--ink);color:var(--y)}
-  .mat-b{display:flex;flex-direction:column;gap:16px;flex:1;padding:20px 18px 22px}
-  @media (min-width:768px){.mat-b{padding:24px 24px 26px}}
-  .mat-b>.meta{color:var(--muted)}
-  .mat h3{font-size:clamp(34px,5vw,44px)}
-  .mat-pr{display:flex;align-items:flex-end;gap:10px}
-  .mat-pr .flap{font-size:clamp(40px,11vw,56px)}
-  .spec{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
-  .spec li{display:grid;grid-template-columns:7.5em 1fr;gap:10px;padding:9px 0;border-bottom:1px solid var(--hair);font-size:15.5px;line-height:1.35}
-  .spec li span{font:500 11px/1.6 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+  .mat{display:flex;flex-direction:column;background:var(--bg-2)}
+  .mat-ph{position:relative;aspect-ratio:4/3;overflow:hidden;background:#000}
+  .mat-ph img{width:100%;height:100%;object-fit:cover;transition:transform .9s var(--snap)}
+  @media (hover:hover) and (pointer:fine){.mat:hover .mat-ph img{transform:scale(1.05)}}
+  .mat-ph .tag{position:absolute;left:0;bottom:0;padding:8px 12px;background:var(--y);color:var(--ink);font:800 16px/1 var(--cond);letter-spacing:.06em;text-transform:uppercase}
+  .mat-b{display:flex;flex-direction:column;gap:16px;flex:1;padding:22px 20px 24px;border-top:4px solid var(--y)}
+  @media (min-width:768px){.mat-b{padding:26px 26px 28px}}
+  .mat h3{font-size:clamp(34px,5vw,42px)}
+  .price{display:flex;align-items:baseline;gap:10px;font:800 clamp(60px,15vw,76px)/.85 var(--cond);color:var(--y)}
+  .price small{font:700 19px/1 var(--cond);letter-spacing:.05em;text-transform:uppercase;color:var(--text)}
+  .uses{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+  .uses li{display:flex;gap:10px;font-size:17px;line-height:1.4}
+  .uses .ic{width:20px;height:20px;margin-top:2px;color:var(--y);stroke-width:2.6}
   .mat .add{margin-top:auto;width:100%}
-  .trans{display:grid;gap:2px;margin-top:28px;background:var(--ink);border:2px solid var(--ink)}
-  @media (min-width:900px){.trans{grid-template-columns:.8fr 1fr 1fr 1fr}}
-  .trans>div{background:var(--sheet);padding:16px 18px 18px}
-  .trans .th{background:var(--ink);color:var(--paper);display:flex;align-items:center;gap:12px}
+  .trans{display:grid;gap:2px;margin-top:22px;background:var(--line)}
+  @media (min-width:900px){.trans{grid-template-columns:.9fr 1fr 1fr 1fr}}
+  .trans>div{background:var(--bg-2);padding:18px 20px 20px}
+  .trans .th{display:flex;align-items:center;gap:14px;background:var(--y);color:var(--ink)}
   .trans .th b{font:800 34px/1 var(--cond);text-transform:uppercase}
-  .trans .th .ic{width:30px;height:30px;color:var(--y)}
-  .trans .meta{color:var(--muted)}
-  .trans strong{display:block;margin-top:8px;font:800 34px/1 var(--cond);text-transform:uppercase}
-  .trans .yy{background:var(--y)}
-  .trans .yy .meta{color:var(--ink)}
+  .trans .th .ic{width:34px;height:34px}
+  .trans small{display:block;font:700 15px/1.2 var(--cond);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .trans strong{display:block;margin-top:6px;font:800 36px/1 var(--cond);text-transform:uppercase}
+  .trans strong.y{color:var(--y)}
 
-  /* Equipment — stacking cards */
-  .stack{display:grid;gap:22px}
-  .sc{position:sticky;top:calc(var(--header-h) + 20px + var(--i) * 16px);display:grid;background:var(--sheet);border:2px solid var(--ink);box-shadow:6px 6px 0 var(--ink);transform-origin:50% 0}
-  .sc::after{content:"";position:absolute;inset:0;background:var(--ink);opacity:var(--dim,0);pointer-events:none}
+  /* Scroll-expand photo band */
+  .expand{position:relative;height:190vh}
+  .ex-stick{position:sticky;top:0;height:100svh;overflow:hidden}
+  .ex-frame{position:absolute;inset:0;overflow:hidden}
+  .ex-frame img{width:100%;height:100%;object-fit:cover;object-position:35% 60%}
+  .ex-frame::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,17,16,.15) 0%,rgba(17,17,16,.25) 45%,rgba(17,17,16,.88) 100%)}
+  .ex-txt{position:absolute;left:0;right:0;bottom:0;padding:0 var(--g) 9svh;max-width:var(--wrap);margin:0 auto}
+  .ex-txt h2{margin-top:10px;font-size:clamp(48px,12vw,120px);text-shadow:0 4px 30px rgba(0,0,0,.4)}
+  .ex-txt p:last-child{margin-top:16px;max-width:44ch;font-size:19px;color:#E4E0D6}
+  .no-ex .expand{height:auto}
+  .no-ex .ex-stick{position:relative;height:auto;min-height:80svh}
+
+  /* Machines: stacking cards */
+  .stack{display:grid;gap:24px}
+  .sc{position:sticky;top:calc(var(--header-h) + 22px + var(--i) * 18px);display:grid;background:var(--bg-3);transform-origin:50% 0;box-shadow:0 -12px 40px rgba(0,0,0,.45)}
+  .sc::after{content:"";position:absolute;inset:0;background:#000;opacity:var(--dim,0);pointer-events:none}
   @media (min-width:900px){.sc{grid-template-columns:1fr 1fr}}
-  .sc-ph{position:relative;aspect-ratio:16/10;overflow:hidden;border-bottom:2px solid var(--ink);background:var(--ink)}
-  @media (min-width:900px){.sc-ph{aspect-ratio:auto;min-height:440px;border-bottom:0;border-right:2px solid var(--ink)}}
+  .sc-ph{position:relative;aspect-ratio:16/10;overflow:hidden;background:#000}
+  @media (min-width:900px){.sc-ph{aspect-ratio:auto;min-height:460px}}
   .sc-ph img{width:100%;height:100%;object-fit:cover}
-  .sc-ph .meta{position:absolute;left:0;bottom:0;padding:6px 8px;background:var(--ink);color:var(--y)}
-  .sc-b{display:flex;flex-direction:column;gap:16px;padding:20px 18px 22px}
-  @media (min-width:900px){.sc-b{padding:32px}}
-  .sc-b>.meta{color:var(--muted)}
-  .sc h3{font-size:clamp(40px,7vw,64px)}
-  .sc .rate{display:flex;align-items:flex-end;gap:10px;font:800 clamp(52px,12vw,76px)/.86 var(--cond)}
-  .sc .rate small{font:500 12px/1.2 var(--mono);letter-spacing:.06em;text-transform:uppercase;padding-bottom:6px}
-  .sc ul{list-style:none;margin:0;padding:0;display:grid;gap:7px}
-  .sc li{position:relative;padding-left:22px;font-size:16px;line-height:1.4}
-  .sc li::before{content:"→";position:absolute;left:0;top:0;font-family:var(--mono)}
+  .sc-b{display:flex;flex-direction:column;gap:16px;padding:22px 20px 24px;border-top:4px solid var(--y)}
+  @media (min-width:900px){.sc-b{padding:36px;border-top:0;border-left:4px solid var(--y)}}
+  .sc h3{font-size:clamp(40px,7vw,62px)}
+  .sc ul{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+  .sc li{display:flex;gap:10px;font-size:17px;line-height:1.4}
+  .sc li .ic{width:20px;height:20px;margin-top:2px;color:var(--y);stroke-width:2.6}
   .sc .add{align-self:flex-start;margin-top:auto}
-  .rates{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--ink);border:2px solid var(--ink)}
-  .rates>div{background:var(--paper);padding:12px 12px 14px}
-  .rates>div.y{background:var(--y)}
-  .rates b{display:block;margin-top:6px;font:800 clamp(36px,8vw,48px)/.9 var(--cond)}
-  .rates b small{font:500 11px/1 var(--mono);margin-left:4px}
-  .rates .full{grid-column:1/-1;font-size:15px}
-  .rates .full strong{font-weight:600}
-  .reg{display:grid;gap:2px;margin-top:56px;background:var(--ink);border:2px solid var(--ink)}
-  @media (min-width:900px){.reg{grid-template-columns:1fr 1fr}}
-  .reg-g{background:var(--sheet);padding:18px 18px 10px}
-  .reg-g h3{display:flex;align-items:baseline;gap:12px;font-size:28px;padding-bottom:10px;border-bottom:2px solid var(--ink)}
-  .reg-g h3 .meta{font-size:12px}
-  .reg-g ol{list-style:none;margin:0;padding:0}
-  .reg-g li{display:grid;grid-template-columns:3.2em 1fr;gap:8px;padding:10px 6px;border-bottom:1px solid var(--hair);font-size:16px;line-height:1.35;transition:background-color .15s}
-  .reg-g li:last-child{border-bottom:0}
-  .reg-g li span{font:500 12px/1.6 var(--mono);color:var(--muted)}
-  @media (hover:hover) and (pointer:fine){.reg-g li:hover{background:var(--y)}.reg-g li:hover span{color:var(--ink)}}
+  .rates{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .rate{padding:14px 14px 16px;background:var(--bg-2)}
+  .rate.y{background:var(--y);color:var(--ink)}
+  .rate small{display:block;font:700 15px/1.2 var(--cond);letter-spacing:.08em;text-transform:uppercase}
+  .rate b{display:block;margin-top:6px;font:800 clamp(40px,9vw,54px)/.9 var(--cond)}
+  .rate b span{font-size:.4em;margin-left:4px}
+  .rate.full{grid-column:1/-1;font-size:16.5px;color:var(--muted)}
+  .rate.full strong{color:var(--text)}
 
-  /* Price board */
-  .dep{background:var(--ink);color:var(--paper);border:2px solid var(--ink);box-shadow:8px 8px 0 var(--y)}
-  .dep-h,.dep-r{display:grid;grid-template-columns:1fr auto;gap:6px 16px;align-items:center;padding:12px 16px}
-  @media (min-width:768px){.dep-h,.dep-r{grid-template-columns:1fr 7em auto;padding:14px 24px}}
-  .dep-h{color:#9D998F;border-bottom:1px solid rgba(236,233,226,.2)}
-  .dep-g{padding:8px 16px;background:#1D1D1B;color:var(--y);border-bottom:1px solid rgba(236,233,226,.12)}
-  @media (min-width:768px){.dep-g{padding:8px 24px}}
-  .dep-r{border-bottom:1px solid rgba(236,233,226,.12)}
-  .dep-r:last-child{border-bottom:0}
-  .dep-r .dn{font:800 clamp(20px,4.4vw,28px)/1.05 var(--cond);text-transform:uppercase}
-  .dep-r .dn small{display:block;margin-top:4px;font:500 11px/1.3 var(--mono);letter-spacing:.05em;color:#9D998F;text-transform:uppercase}
-  .dep-r .du{grid-column:1;grid-row:2;color:#9D998F}
-  @media (min-width:768px){.dep-r .du{grid-column:2;grid-row:1}}
-  .dep-r .flap{grid-column:2;grid-row:1/span 2;justify-self:end;font-size:clamp(26px,6vw,38px)}
-  @media (min-width:768px){.dep-r .flap{grid-column:3;grid-row:1}}
-  .dep .flap .t,.dep .flap .h,.dep .flap .f{background:#2A2A27}
-  .dep .flap .dn,.dep .flap .back{background:#232320}
-  .dep-h .meta:nth-child(2){display:none}
-  @media (min-width:768px){.dep-h .meta:nth-child(2){display:block}}
-  .dep-note{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:22px;color:var(--ink-2)}
-  .dep-note .meta{display:inline-flex;align-items:center;gap:8px}
-  .dep-note .meta::before{content:"";width:10px;height:10px;background:var(--y);border:1.5px solid var(--ink)}
+  /* Services list */
+  .svc{display:grid;gap:20px;margin-top:60px}
+  @media (min-width:900px){.svc{grid-template-columns:repeat(4,1fr)}}
+  .sg h3{padding-bottom:12px;margin-bottom:6px;border-bottom:3px solid var(--y);font-size:28px}
+  .sg ul{list-style:none;margin:0;padding:0}
+  .sg li{position:relative;padding:10px 0 10px 22px;border-bottom:1px solid var(--line);font-size:17px;line-height:1.4}
+  .sg li::before{content:"";position:absolute;left:2px;top:19px;width:8px;height:8px;background:var(--y);transform:rotate(45deg)}
 
-  /* Contact sheet gallery */
-  .sheet{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--ink);border:2px solid var(--ink)}
-  @media (min-width:900px){.sheet{grid-template-columns:repeat(4,1fr)}}
-  .sheet button{position:relative;display:block;padding:0;border:0;background:var(--ink);cursor:zoom-in;aspect-ratio:3/4;overflow:hidden}
-  .sheet button.w{grid-column:span 2;aspect-ratio:3/2}
-  @media (min-width:900px){.sheet button.w{aspect-ratio:auto}}
-  .sheet img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.12);transition:filter .5s var(--snap),transform .8s var(--snap)}
-  .sheet button.on img{filter:none}
-  @media (hover:hover) and (pointer:fine){.sheet button:hover img{filter:none;transform:scale(1.04)}}
-  .sheet .meta{position:absolute;left:0;right:0;bottom:0;display:flex;justify-content:space-between;gap:8px;padding:6px 8px;background:rgba(18,18,17,.86);color:var(--paper);text-align:left}
-  .sheet .meta b{color:var(--y);font-weight:700}
+  /* Price list */
+  .plist{background:var(--bg-2)}
+  .prow{display:grid;grid-template-columns:1fr auto;gap:2px 16px;align-items:center;padding:16px 20px;border-bottom:1px solid var(--line)}
+  @media (min-width:768px){.prow{padding:20px 30px}}
+  .prow:last-child{border-bottom:0}
+  .prow.head{background:var(--y);color:var(--ink);font:800 18px/1 var(--cond);letter-spacing:.08em;text-transform:uppercase;padding-block:12px}
+  .prow b{font:800 23px/1.15 var(--cond);letter-spacing:.02em;text-transform:uppercase}
+  .prow small{grid-column:1;font-size:15.5px;color:var(--muted)}
+  .prow .v{grid-column:2;grid-row:1/span 2;text-align:right;font:800 34px/1 var(--cond);color:var(--y);white-space:nowrap}
+  .prow .v span{font-size:.55em;color:var(--text);margin-left:3px}
+  .pnote{margin-top:18px;font-size:16.5px;color:var(--muted)}
+  .pnote strong{color:var(--text)}
+
+  /* Gallery: colour masonry */
+  .gal{columns:2;column-gap:10px}
+  @media (min-width:800px){.gal{columns:3;column-gap:16px}}
+  @media (min-width:1200px){.gal{columns:4}}
+  .gal button{position:relative;display:block;width:100%;margin:0 0 10px;padding:0;border:0;background:#000;cursor:zoom-in;break-inside:avoid;overflow:hidden}
+  @media (min-width:800px){.gal button{margin-bottom:16px}}
+  .gal img{width:100%;height:auto;transition:transform .8s var(--snap)}
+  .gal span{position:absolute;left:0;bottom:0;padding:7px 10px;background:var(--y);color:var(--ink);font:800 15px/1.1 var(--cond);letter-spacing:.04em;text-transform:uppercase;text-align:left}
+  @media (hover:hover) and (pointer:fine){.gal button:hover img{transform:scale(1.05)}}
 
   /* ---------- Work order (configurator) ---------- */
-  .wo{display:grid;gap:30px;align-items:start}
+  .wo{display:grid;gap:26px;align-items:start}
   @media (min-width:1000px){.wo{grid-template-columns:1.2fr .8fr;gap:32px}}
-  .wo-form{background:var(--sheet);border:2px solid var(--ink);box-shadow:6px 6px 0 var(--ink)}
-  .wo-h{display:flex;justify-content:space-between;gap:12px;padding:12px 16px;background:var(--ink);color:var(--paper)}
-  .wo-h b{color:var(--y)}
-  .wo-s{padding:18px 16px 20px;border-bottom:2px solid var(--ink)}
-  @media (min-width:768px){.wo-s{padding:22px 24px 24px}}
+  .wo-form{background:var(--bg-2)}
+  .wo-h{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 18px;background:var(--y);color:var(--ink);font:800 19px/1 var(--cond);letter-spacing:.06em;text-transform:uppercase}
+  .wo-h b{display:inline-grid;place-items:center;min-width:28px;height:28px;margin-left:6px;background:var(--ink);color:var(--y)}
+  .wo-s{padding:22px 18px 24px;border-bottom:2px solid var(--line)}
+  @media (min-width:768px){.wo-s{padding:26px 28px 28px}}
   .wo-s:last-child{border-bottom:0}
-  .wo-s>h3{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin-bottom:14px;font-size:26px}
-  .wo-s>h3 .meta{font-size:11px;color:var(--muted)}
-  .items{border:1.5px solid var(--ink)}
-  .it+.it{border-top:1.5px solid var(--ink)}
-  .it-row{position:relative;display:grid;grid-template-columns:28px 1fr auto;gap:12px;align-items:center;padding:14px 12px;cursor:pointer;transition:background-color .15s;-webkit-user-select:none;user-select:none}
+  .wo-s>h3{margin-bottom:6px;font-size:30px}
+  .wo-s>.sub{margin-bottom:16px;font-size:16px;color:var(--muted)}
+  .items{display:grid;gap:8px}
+  .it{background:var(--bg-3)}
+  .it-row{position:relative;display:grid;grid-template-columns:30px 1fr auto;gap:14px;align-items:center;padding:16px 16px;cursor:pointer;transition:background-color .15s,color .15s;-webkit-user-select:none;user-select:none}
   .it-row input{position:absolute;opacity:0;width:1px;height:1px}
-  .box{display:grid;place-items:center;width:26px;height:26px;border:2px solid var(--ink);background:var(--paper)}
-  .box::after{content:"";width:12px;height:7px;border-left:3px solid var(--ink);border-bottom:3px solid var(--ink);transform:rotate(-45deg) translate(1px,-1px) scale(0);transition:transform .15s var(--snap)}
-  .it-row input:checked~.box{background:var(--sheet)}
+  .box{display:grid;place-items:center;width:30px;height:30px;border:2px solid var(--muted);background:transparent}
+  .box::after{content:"";width:13px;height:8px;border-left:3px solid var(--y);border-bottom:3px solid var(--y);transform:rotate(-45deg) translate(1px,-1px) scale(0);transition:transform .15s var(--snap)}
+  .it-row input:checked~.box{background:var(--ink);border-color:var(--ink)}
   .it-row input:checked~.box::after{transform:rotate(-45deg) translate(1px,-1px) scale(1)}
-  .it-row input:focus-visible~.box{outline:3px solid var(--ink);outline-offset:2px}
-  .it-row .nm{font:800 21px/1.05 var(--cond);text-transform:uppercase}
-  .it-row .pr{font:500 12px/1 var(--mono);color:var(--muted);white-space:nowrap}
-  .it.on .it-row{background:var(--y)}
+  .it-row input:focus-visible~.box{outline:3px solid var(--y);outline-offset:3px}
+  .it-row .nm{font:800 23px/1.05 var(--cond);text-transform:uppercase}
+  .it-row .pr{font:700 18px/1 var(--cond);color:var(--y);white-space:nowrap}
+  .it.on .it-row{background:var(--y);color:var(--ink)}
   .it.on .it-row .pr{color:var(--ink)}
-  .it-opts{display:grid;gap:14px;padding:14px 12px 16px 52px;border-top:1.5px dashed var(--ink);background:var(--paper)}
-  @media (max-width:420px){.it-opts{padding-left:12px}}
-  .fl{display:block;margin-bottom:8px;font:500 11px/1.3 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
-  .num{display:inline-flex;align-items:stretch;border:2px solid var(--ink);background:var(--sheet)}
-  .num button{display:grid;place-items:center;width:48px;min-height:48px;border:0;background:var(--ink);color:var(--y);cursor:pointer;transition:background-color .12s}
-  .num button:active{background:#000}
-  .num input{width:76px;border:0;background:transparent;color:var(--ink);text-align:center;font:800 26px/1 var(--cond);-moz-appearance:textfield;cursor:ew-resize;touch-action:pan-y}
+  .it-opts{display:grid;gap:16px;padding:16px 16px 18px 60px}
+  @media (max-width:420px){.it-opts{padding-left:16px}}
+  .fl{display:block;margin-bottom:8px;font:700 16px/1.2 var(--cond);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .num{display:inline-flex;align-items:stretch;background:var(--bg)}
+  .num button{display:grid;place-items:center;width:52px;min-height:52px;border:0;background:var(--y);color:var(--ink);cursor:pointer;transition:background-color .12s,transform .1s var(--snap)}
+  .num button:active{transform:scale(.94);background:var(--y-2)}
+  .num input{width:80px;border:0;background:transparent;color:var(--text);text-align:center;font:800 30px/1 var(--cond);-moz-appearance:textfield;cursor:ew-resize;touch-action:pan-y}
   .num input::-webkit-outer-spin-button,.num input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
-  .num input:focus{outline:none;background:var(--y)}
-  .num-u{display:inline-flex;align-items:center;margin-left:10px;font:500 12px/1 var(--mono);text-transform:uppercase}
-  .hint{margin-top:10px;font:500 11px/1.4 var(--mono);color:var(--muted)}
-  .seg{display:flex;flex-wrap:wrap;gap:6px}
+  .num input:focus{outline:2px solid var(--y);outline-offset:-2px}
+  .num-u{display:inline-flex;align-items:center;margin-left:12px;font:700 19px/1 var(--cond);text-transform:uppercase}
+  .seg{display:flex;flex-wrap:wrap;gap:8px}
   .seg label{position:relative;display:inline-flex}
   .seg input{position:absolute;inset:0;opacity:0;margin:0;cursor:pointer}
-  .seg span{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;border:1.5px solid var(--ink);background:var(--sheet);font:600 15px/1.2 var(--body);-webkit-user-select:none;user-select:none;transition:background-color .12s,color .12s}
-  .seg input:checked+span{background:var(--ink);color:var(--y)}
-  .seg input:focus-visible+span{outline:3px solid var(--ink);outline-offset:2px}
-  .wo-grid{display:grid;gap:14px}
+  .seg span{display:inline-flex;align-items:center;min-height:48px;padding:0 16px;background:var(--bg);border:2px solid var(--line);font:600 16px/1.2 var(--body);-webkit-user-select:none;user-select:none;transition:background-color .12s,color .12s,border-color .12s}
+  .seg input:checked+span{background:var(--y);border-color:var(--y);color:var(--ink)}
+  .seg input:focus-visible+span{outline:3px solid var(--y);outline-offset:2px}
+  .wo-grid{display:grid;gap:16px}
   @media (min-width:640px){.wo-grid{grid-template-columns:1fr 1fr}}
-  .fld input[type=text],.fld input[type=date],.fld textarea{width:100%;min-height:52px;padding:12px 14px;border:2px solid var(--ink);background:var(--paper);color:var(--ink);font:400 16px/1.3 var(--body)}
-  .fld textarea{min-height:92px;resize:vertical}
-  .fld input::placeholder,.fld textarea::placeholder{color:#8C887F}
-  .fld input:focus,.fld textarea:focus{outline:none;background:#FFF8E1;box-shadow:4px 4px 0 var(--y)}
+  .fld input[type=text],.fld input[type=date],.fld textarea{width:100%;min-height:54px;padding:13px 15px;border:2px solid var(--line);background:var(--bg);color:var(--text);font:400 17px/1.3 var(--body)}
+  .fld textarea{min-height:96px;resize:vertical}
+  .fld input::placeholder,.fld textarea::placeholder{color:#7F7B72}
+  .fld input:focus,.fld textarea:focus{outline:none;border-color:var(--y)}
   [hidden]{display:none!important}
-  /* Slip */
-  .slip{position:relative;background:var(--sheet);border:2px solid var(--ink);border-top:0;box-shadow:6px 6px 0 var(--ink);margin-top:12px}
-  @media (min-width:1000px){.slip{position:sticky;top:calc(var(--header-h) + 34px)}}
-  .slip::before{content:"";position:absolute;left:-2px;right:-2px;top:-12px;height:12px;background:radial-gradient(circle at 8px 0,transparent 6px,var(--ink) 6.5px,var(--ink) 8px,var(--sheet) 8.5px) -2px 0/16px 12px repeat-x}
-  .slip-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:14px 16px 12px;border-bottom:2px dashed var(--ink)}
-  .slip-h h3{font-size:28px}
-  .slip-b{padding:12px 16px}
-  .lines{list-style:none;margin:0;padding:0;font:500 12.5px/1.45 var(--mono)}
-  .lines li{display:flex;justify-content:space-between;gap:12px;padding:7px 0;border-bottom:1px dotted var(--ink)}
-  .lines li span:last-child{text-align:right}
-  .lines li.empty{justify-content:flex-start;color:var(--muted);border-bottom:0}
-  .tot{padding:16px;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);background:var(--y)}
-  .tot .meta{display:flex;justify-content:space-between}
-  .odo{display:flex;align-items:flex-end;gap:6px;margin-top:8px;font:800 clamp(48px,12vw,64px)/1 var(--cond)}
+  .sum{background:var(--bg-3);border-top:6px solid var(--y)}
+  @media (min-width:1000px){.sum{position:sticky;top:calc(var(--header-h) + 26px)}}
+  .sum-h{padding:20px 20px 10px}
+  .sum-h h3{font-size:32px}
+  .lines{list-style:none;margin:0;padding:0 20px;font-size:16.5px}
+  .lines li{display:flex;justify-content:space-between;gap:14px;padding:9px 0;border-bottom:1px solid var(--line)}
+  .lines li span:first-child{color:var(--muted)}
+  .lines li span:last-child{text-align:right;font-weight:600}
+  .lines li.empty{color:var(--muted);border-bottom:0}
+  .tot{margin-top:16px;padding:18px 20px;background:var(--y);color:var(--ink)}
+  .tot>small{display:block;font:800 16px/1.2 var(--cond);letter-spacing:.1em;text-transform:uppercase}
+  .odo{display:flex;align-items:flex-end;gap:8px;margin-top:8px;font:800 clamp(54px,13vw,70px)/1 var(--cond)}
   .odo-n{display:inline-flex;height:1em;overflow:hidden}
   .odo-d{display:inline-block;height:1em;overflow:hidden}
   .odo-col{display:flex;flex-direction:column;transition:transform .7s var(--snap)}
   .odo-col span{display:block;height:1em;line-height:1;text-align:center}
   .odo-s{display:inline-block;width:.2em}
-  .odo small{font:500 13px/1 var(--mono);padding-bottom:8px}
-  .tot p{margin-top:6px;font-size:14.5px}
-  .bubble-t{margin:14px 16px 0;color:var(--muted)}
-  .bubble{margin:8px 16px 0;padding:12px 14px;border:1.5px solid var(--ink);background:var(--paper);font:500 12px/1.55 var(--mono);white-space:pre-line;max-height:200px;overflow:auto}
-  .send{padding:16px}
-  .slide{position:relative;height:64px;border:2px solid var(--ink);background:var(--ink);overflow:hidden;touch-action:pan-y;-webkit-user-select:none;user-select:none;cursor:grab}
-  .slide[aria-disabled="true"]{opacity:.4;cursor:not-allowed}
-  .slide-fill{position:absolute;top:0;bottom:0;left:0;width:calc(var(--k,0px) + 60px);background:var(--y)}
-  .slide-txt{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding-left:56px;color:var(--paper);font:800 18px/1 var(--cond);letter-spacing:.06em;text-transform:uppercase;pointer-events:none}
-  .slide-knob{position:absolute;top:4px;left:4px;bottom:4px;width:52px;display:grid;place-items:center;background:var(--y);border:2px solid var(--ink);color:var(--ink);transform:translateX(var(--k,0px))}
-  .slide-knob .ic{width:24px;height:24px}
+  .odo small{font:800 24px/1 var(--cond);padding-bottom:8px}
+  .tot p{margin-top:8px;font-size:16px;font-weight:600}
+  .bubble-t{margin:18px 20px 0;font:700 15px/1.2 var(--cond);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .bubble{margin:8px 20px 0;padding:14px 16px;border-radius:14px 14px 14px 4px;background:#0B2B22;color:#E3F2EA;font-size:15.5px;line-height:1.5;white-space:pre-line;max-height:230px;overflow:auto}
+  .send{padding:20px}
+  .slide{position:relative;height:66px;background:var(--bg);overflow:hidden;touch-action:pan-y;-webkit-user-select:none;user-select:none;cursor:grab;clip-path:polygon(0 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%)}
+  .slide[aria-disabled="true"]{opacity:.45;cursor:not-allowed}
+  .slide:focus-visible{outline:none;box-shadow:inset 0 0 0 3px var(--y)}
+  .slide-fill{position:absolute;top:0;bottom:0;left:0;width:calc(var(--k,0px) + 62px);background:var(--y)}
+  .slide-txt{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding-left:58px;color:var(--text);font:800 19px/1 var(--cond);letter-spacing:.06em;text-transform:uppercase;pointer-events:none}
+  .slide-knob{position:absolute;top:5px;left:5px;bottom:5px;width:56px;display:grid;place-items:center;background:var(--y);color:var(--ink);transform:translateX(var(--k,0px))}
+  .slide-knob .ic{width:26px;height:26px}
   .slide.back .slide-knob,.slide.back .slide-fill{transition:transform .45s var(--snap),width .45s var(--snap)}
   .slide.done .slide-txt{color:var(--ink);padding-left:0;z-index:2}
-  .alt-send{display:block;margin:12px auto 0;padding:6px;border:0;background:none;color:var(--ink);font:500 12px/1.4 var(--mono);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
-  .disc{padding:0 16px 16px;font-size:13px;line-height:1.5;color:var(--muted)}
-  .disc button{padding:0;border:0;background:none;color:var(--ink);font:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+  .alt-send{display:block;margin:14px auto 0;padding:8px;border:0;background:none;color:var(--text);font:600 16px/1.4 var(--body);text-decoration:underline;text-underline-offset:4px;cursor:pointer}
+  .disc{padding:0 20px 20px;font-size:14.5px;line-height:1.5;color:var(--muted)}
+  .disc button{padding:0;border:0;background:none;color:var(--text);font:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
 
   /* Contact */
-  .con{position:relative;background:var(--y);border-bottom:2px solid var(--ink);overflow:hidden}
+  .con{position:relative;background:var(--y);color:var(--ink);overflow:hidden}
   .con::before,.con::after{content:"";position:absolute;left:0;right:0;height:14px;background:repeating-linear-gradient(-45deg,var(--ink) 0 14px,var(--y) 14px 28px)}
   .con::before{top:0}.con::after{bottom:0}
-  .con .wrap{display:grid;gap:28px;padding-block:60px 66px}
-  @media (min-width:1000px){.con .wrap{grid-template-columns:1.2fr .8fr;align-items:end;padding-block:96px}}
-  .big-tel{display:block;margin-top:14px;font:800 clamp(62px,18.5vw,190px)/.86 var(--cond);letter-spacing:-.01em;color:var(--ink);text-decoration:none;white-space:nowrap}
-  .con p{margin-top:16px;font-size:18px;max-width:42ch}
-  .con-btns{display:grid;gap:16px}
-  .con .who{display:inline-flex;gap:8px;align-items:center;margin-top:16px}
+  .con .wrap{display:grid;gap:30px;padding-block:66px 72px}
+  @media (min-width:1000px){.con .wrap{grid-template-columns:1.2fr .8fr;align-items:end;padding-block:100px}}
+  .con .kicker{color:var(--ink)}
+  .con h2{margin-top:12px;font-size:clamp(46px,11vw,96px)}
+  .big-tel{display:block;margin-top:14px;font:800 clamp(60px,17.5vw,180px)/.86 var(--cond);color:var(--ink);text-decoration:none;white-space:nowrap}
+  .con p{margin-top:16px;font-size:19px;max-width:42ch}
+  .con .who{display:flex;align-items:center;gap:10px;font-weight:600}
+  .con-btns{display:grid;gap:12px}
+  .con .btn{background:var(--ink);color:var(--y)}
+  .con .btn:focus-visible{box-shadow:inset 0 0 0 3px var(--y)}
+  @media (hover:hover) and (pointer:fine){.con .btn:hover{background:#2A2A26}}
 
   /* Footer */
-  .foot{background:var(--ink);color:#BDB9AF;padding:40px 0 calc(40px + env(safe-area-inset-bottom,0px));font-size:15px}
-  @media (max-width:899px){.foot{padding-bottom:calc(104px + env(safe-area-inset-bottom,0px))}}
+  .foot{background:var(--bg);color:var(--muted);padding:44px 0 calc(44px + env(safe-area-inset-bottom,0px));font-size:16px}
+  @media (max-width:899px){.foot{padding-bottom:calc(110px + env(safe-area-inset-bottom,0px))}}
   .foot .wrap{display:grid;gap:20px}
   @media (min-width:900px){.foot .wrap{grid-template-columns:auto 1fr auto;align-items:center;gap:44px}}
-  .foot img{height:48px;width:auto}
-  .foot a,.foot button{color:var(--paper);background:none;border:0;padding:0;font:inherit;text-decoration:none;cursor:pointer}
-  .foot-l{display:flex;flex-wrap:wrap;gap:8px 20px}
+  .foot img{height:50px;width:auto}
+  .foot a,.foot button{color:var(--text);background:none;border:0;padding:0;font:inherit;text-decoration:none;cursor:pointer}
+  .foot-l{display:flex;flex-wrap:wrap;gap:8px 22px}
   @media (hover:hover) and (pointer:fine){.foot a:hover,.foot button:hover{color:var(--y)}}
 
   /* Mobile dock */
-  .bar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:1fr 1fr;background:var(--ink);padding:10px 10px calc(10px + env(safe-area-inset-bottom,0px));gap:10px;transition:transform .4s var(--snap)}
+  .bar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:1fr 1fr;background:var(--bg);padding:10px 10px calc(10px + env(safe-area-inset-bottom,0px));gap:10px;transition:transform .4s var(--snap)}
   .bar::before{content:"";position:absolute;left:0;right:0;top:-5px;height:5px;background:repeating-linear-gradient(-45deg,var(--y) 0 10px,var(--ink) 10px 20px)}
-  .bar a{display:flex;align-items:center;justify-content:center;gap:8px;min-height:52px;font:800 18px/1 var(--cond);letter-spacing:.05em;text-transform:uppercase;text-decoration:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;transition:transform .1s var(--snap)}
+  .bar a{display:flex;align-items:center;justify-content:center;gap:8px;min-height:54px;font:800 19px/1 var(--cond);letter-spacing:.05em;text-transform:uppercase;text-decoration:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;transition:transform .1s var(--snap)}
   .bar a:active{transform:scale(.96)}
   .bar .b1{background:var(--y);color:var(--ink)}
-  .bar .b2{border:1.5px solid var(--paper);color:var(--paper)}
+  .bar .b2{background:var(--bg-3);color:var(--text)}
   .js .bar:not(.on){transform:translateY(calc(100% + 8px))}
   @media (min-width:900px){.bar{display:none}}
 
   /* Toast */
-  .toast{position:fixed;left:50%;bottom:calc(92px + env(safe-area-inset-bottom,0px));z-index:60;display:flex;align-items:center;gap:14px;width:max-content;max-width:calc(100% - 24px);padding:12px 14px;background:var(--ink);color:var(--paper);border-left:6px solid var(--y);box-shadow:4px 4px 0 var(--y);font-size:15px;transform:translate(-50%,20px);opacity:0;pointer-events:none;transition:transform .3s var(--snap),opacity .3s}
+  .toast{position:fixed;left:50%;bottom:calc(94px + env(safe-area-inset-bottom,0px));z-index:60;display:flex;align-items:center;gap:14px;width:max-content;max-width:calc(100% - 24px);padding:14px 16px;background:var(--text);color:var(--ink);border-left:6px solid var(--y);font-size:16px;font-weight:600;box-shadow:0 14px 34px rgba(0,0,0,.5);transform:translate(-50%,20px);opacity:0;pointer-events:none;transition:transform .3s var(--snap),opacity .3s}
   @media (min-width:900px){.toast{bottom:28px}}
   .toast.on{transform:translate(-50%,0);opacity:1;pointer-events:auto}
-  .toast a{color:var(--y);font-weight:600;white-space:nowrap}
+  .toast a{color:var(--ink);text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
 
   /* Dialogs */
   dialog{padding:0;border:0}
-  .lb{width:100%;height:100%;max-width:none;max-height:none;margin:0;background:var(--ink);color:var(--paper);overflow:hidden}
+  .lb{width:100%;height:100%;max-width:none;max-height:none;margin:0;background:#0A0A09;color:var(--text);overflow:hidden}
   .lb[open]{display:grid;grid-template-rows:auto minmax(0,1fr) auto}
-  .lb::backdrop{background:var(--ink)}
-  .lb-top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:calc(10px + env(safe-area-inset-top,0px)) 12px 10px;border-bottom:1px solid rgba(236,233,226,.2)}
-  .sq{display:grid;place-items:center;width:48px;height:48px;padding:0;border:1.5px solid var(--paper);background:var(--ink);color:var(--paper);cursor:pointer;transition:transform .1s var(--snap),background-color .15s,color .15s}
+  .lb::backdrop{background:#0A0A09}
+  .lb-top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:calc(10px + env(safe-area-inset-top,0px)) 12px 10px}
+  .lb-count{font:700 17px/1 var(--cond);letter-spacing:.08em;color:var(--muted)}
+  .sq{display:grid;place-items:center;width:50px;height:50px;padding:0;border:0;background:var(--bg-3);color:var(--text);cursor:pointer;transition:transform .1s var(--snap),background-color .15s,color .15s}
   .sq:active{transform:scale(.94)}
-  @media (hover:hover) and (pointer:fine){.sq:hover{background:var(--y);color:var(--ink);border-color:var(--y)}}
-  .lb-stage{position:relative;min-height:0;display:grid;place-items:center;padding:12px;touch-action:pan-y}
-  .lb-stage img{max-width:100%;max-height:100%;object-fit:contain;-webkit-user-select:none;user-select:none;-webkit-user-drag:none;border:2px solid var(--paper)}
+  @media (hover:hover) and (pointer:fine){.sq:hover{background:var(--y);color:var(--ink)}}
+  .lb-stage{position:relative;min-height:0;display:grid;place-items:center;padding:0 12px;touch-action:pan-y}
+  .lb-stage img{max-width:100%;max-height:100%;object-fit:contain;-webkit-user-select:none;user-select:none;-webkit-user-drag:none}
   .lb-prev,.lb-next{position:absolute;top:50%;transform:translateY(-50%)}
   .lb-prev{left:12px}.lb-next{right:12px}
   .lb-prev:active,.lb-next:active{transform:translateY(-50%) scale(.94)}
-  .lb-cap{padding:12px 16px calc(16px + env(safe-area-inset-bottom,0px));text-align:center;border-top:1px solid rgba(236,233,226,.2)}
-  .pp{width:min(720px,calc(100% - 24px));max-height:min(88dvh,900px);margin:auto;background:var(--sheet);color:var(--ink);border:2px solid var(--ink);box-shadow:8px 8px 0 var(--y)}
+  .lb-cap{padding:14px 16px calc(18px + env(safe-area-inset-bottom,0px));text-align:center;font:800 19px/1.2 var(--cond);letter-spacing:.05em;text-transform:uppercase}
+  .pp{width:min(720px,calc(100% - 24px));max-height:min(88dvh,900px);margin:auto;background:var(--bg-2);color:var(--text);border-top:6px solid var(--y);box-shadow:0 40px 80px -30px rgba(0,0,0,.8)}
   .pp[open]{display:flex;flex-direction:column}
-  .pp::backdrop{background:rgba(18,18,17,.6)}
-  .pp-head{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 16px;background:var(--ink);color:var(--paper)}
-  .pp-head h2{font-size:30px}
-  .pp-body{overflow-y:auto;padding:18px 20px 28px;overscroll-behavior:contain}
-  .pp-body h3{margin:22px 0 8px;font-size:22px}
-  .pp-body p,.pp-body li{color:var(--ink-2);font-size:15.5px}
+  .pp::backdrop{background:rgba(5,5,4,.75)}
+  .pp-head{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 20px;border-bottom:1px solid var(--line)}
+  .pp-head h2{font-size:32px}
+  .pp-body{overflow-y:auto;padding:18px 22px 30px;overscroll-behavior:contain}
+  .pp-body h3{margin:24px 0 8px;font-size:23px}
+  .pp-body p,.pp-body li{color:#D6D2C7;font-size:16px}
   .pp-body p+p{margin-top:10px}
   .pp-body ul{margin:8px 0 0;padding-left:20px;display:grid;gap:6px}
-  @media (max-width:600px){.pp{width:100%;max-width:100%;height:100dvh;max-height:100dvh;box-shadow:none}.pp-head{padding-top:calc(14px + env(safe-area-inset-top,0px))}}
+  @media (max-width:600px){.pp{width:100%;max-width:100%;height:100dvh;max-height:100dvh}.pp-head{padding-top:calc(16px + env(safe-area-inset-top,0px))}}
 
   /* Intro + reduced motion */
-  .intro .top,.intro .hero [data-i],.intro .h1 .ln>span{opacity:0}
+  .intro .top,.intro .hero [data-i],.intro .h1 .ln>span,.intro .hero-media img,.intro .hero .tape{opacity:0}
   @media (prefers-reduced-motion:reduce){
     html:not(.lenis){scroll-behavior:auto}
     *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
@@ -477,7 +436,6 @@
   <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></symbol>
   <symbol id="i-wa" viewBox="0 0 24 24"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></symbol>
   <symbol id="i-truck" viewBox="0 0 24 24"><path d="M2.5 6.5h11v10h-11zM13.5 10h4.2l3.3 3.4v3.1h-7.5"/><circle cx="6.5" cy="17.5" r="1.9"/><circle cx="17" cy="17.5" r="1.9"/></symbol>
-  <symbol id="i-arr" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></symbol>
   <symbol id="i-left" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
   <symbol id="i-right" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
   <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
@@ -494,10 +452,10 @@
   <div class="wrap">
     <a class="brand" href="#start" aria-label="CAN – początek strony"><img src="img/logo.png" alt="CAN – Ziemia, Kruszywa, Usługi" width="505" height="145"></a>
     <nav class="nav" aria-label="Menu">
-      <a class="nl only-lg" href="#materialy">01 Materiały</a>
-      <a class="nl only-lg" href="#sprzet">02 Sprzęt i ekipa</a>
-      <a class="nl only-lg" href="#cennik">03 Cennik</a>
-      <a class="nl only-lg" href="#realizacje">04 Realizacje</a>
+      <a class="nl only-lg" href="#materialy">Materiały</a>
+      <a class="nl only-lg" href="#sprzet">Sprzęt i ekipa</a>
+      <a class="nl only-lg" href="#cennik">Cennik</a>
+      <a class="nl only-lg" href="#realizacje">Realizacje</a>
       <a class="order-btn only-lg" href="#zlecenie">Zlecenie <b data-count-items>0</b></a>
       <a class="call" href="tel:+48504409208"><svg class="ic"><use href="#i-phone"/></svg><span class="t">504 409 208</span></a>
     </nav>
@@ -507,226 +465,212 @@
 <main id="start">
   <!-- HERO -->
   <section class="hero" aria-labelledby="hero-h">
-    <canvas class="topo" id="topo" aria-hidden="true"></canvas>
-    <div class="cross" id="cross" aria-hidden="true"><i class="cx"></i><i class="cy"></i><span class="meta">X 000 · Y 000</span></div>
-    <div class="wrap hero-g">
-      <div class="h-top meta" data-i><span>[ CAN · Ziemia • Kruszywa • Usługi ]</span><span>Kamienna Góra i okolice</span></div>
+    <div class="hero-media" aria-hidden="true">
+      <img src="img/koparka-volvo-m.jpg" srcset="img/koparka-volvo-m.jpg 540w, img/koparka-volvo.jpg 1050w" sizes="(min-width: 1000px) 48vw, 100vw" alt="" width="1050" height="1400" fetchpriority="high">
+    </div>
+    <div class="tape" aria-hidden="true"><div class="tr">
+      <span>Transport gratis powyżej 25 ton <i></i> Ziemia przesiana 80 zł/t <i></i> Koparko-ładowarka 200 zł/h <i></i> Kamienna Góra i okolice <i></i></span>
+      <span>Transport gratis powyżej 25 ton <i></i> Ziemia przesiana 80 zł/t <i></i> Koparko-ładowarka 200 zł/h <i></i> Kamienna Góra i okolice <i></i></span>
+    </div></div>
+    <div class="wrap hero-txt">
+      <p class="kicker" data-i>Ziemia · Kruszywa · Usługi budowlane</p>
       <h1 class="h1" id="hero-h">
         <span class="ln"><span>Solidne</span></span>
         <span class="ln"><span>materiały</span></span>
-        <span class="ln hl"><span>i doświadczeni</span></span>
-        <span class="ln hl"><span>ludzie</span></span>
+        <span class="ln"><span class="y">i doświadczeni</span></span>
+        <span class="ln"><span class="y">ludzie</span></span>
         <span class="sr-only"> – ziemia przesiana, kruszywa granitowe, koparko-ładowarka i ekipa budowlana w Kamiennej Górze i okolicach</span>
       </h1>
-      <div class="board" data-i>
-        <span class="meta">Na Twoją działkę &gt;&gt;&gt;</span>
-        <div class="flap" id="flap" data-words="ZIEMIA|KRUSZYWO|KOPARKA|MINIKOPARKA|EKIPA|TRANSPORT" role="img" aria-label="Ziemia, kruszywo, koparka, minikoparka, ekipa, transport"><span class="flap-fallback">Ziemia · Kruszywo · Koparka · Ekipa</span></div>
-      </div>
-      <p class="lead" data-i>Ziemia przesiana, kruszywa granitowe, prace koparko-ładowarką i minikoparką oraz 3-osobowa ekipa budowlana. Jeden telefon i wszystko przyjeżdża na plac.</p>
+      <p class="lead" data-i>Ziemia przesiana, kruszywa granitowe, koparko-ładowarka, minikoparka i 3-osobowa ekipa budowlana. <strong>Jeden telefon i wszystko przyjeżdża na plac.</strong></p>
       <div class="ctas" data-i>
         <a class="btn" href="tel:+48504409208"><svg class="ic"><use href="#i-phone"/></svg>Zadzwoń 504 409 208</a>
-        <a class="btn btn-ink" href="#zlecenie">Złóż zlecenie<svg class="ic"><use href="#i-arr"/></svg></a>
+        <a class="btn btn-dark" href="#zlecenie"><svg class="ic"><use href="#i-list"/></svg>Złóż zlecenie</a>
       </div>
-      <figure class="h-fig" data-i>
-        <div class="frame">
-          <img src="img/koparka-volvo-m.jpg" srcset="img/koparka-volvo-m.jpg 540w, img/koparka-volvo.jpg 1050w" sizes="(min-width: 1000px) 34vw, 100vw" alt="Koparko-ładowarka Volvo BL71 firmy CAN pod burzowym niebem" width="1050" height="1400" fetchpriority="high">
-          <span class="dots" aria-hidden="true"></span>
-          <span class="ht" id="heroHt" aria-hidden="true"></span>
-          <i class="crn a"></i><i class="crn b"></i><i class="crn c"></i><i class="crn d"></i>
-        </div>
-        <span class="stamp" aria-hidden="true">Własny sprzęt<small>Volvo BL71</small></span>
-        <figcaption class="fig-cap meta"><span>Fig. 01</span><span>Koparko-ładowarka · 200 zł/h</span></figcaption>
-      </figure>
-      <dl class="h-spec" data-i>
-        <div><dt>Ziemia przesiana</dt><dd>80<small>zł/t</small></dd></div>
-        <div><dt>Kruszywo 0/31</dt><dd>45<small>zł/t</small></dd></div>
-        <div><dt>Koparko-ładowarka</dt><dd>200<small>zł/h</small></dd></div>
-        <div class="free"><dt>Transport</dt><dd>Gratis<small>pow. 25 t · do 20 km</small></dd></div>
-      </dl>
     </div>
   </section>
 
-  <!-- VELOCITY TICKER -->
+  <div class="pricebar" aria-label="Najważniejsze ceny">
+    <div class="pb"><small>Ziemia przesiana</small><b><span data-count="80">80</span><span>zł/t</span></b></div>
+    <div class="pb"><small>Kruszywo 0/31</small><b><span data-count="45">45</span><span>zł/t</span></b></div>
+    <div class="pb"><small>Koparko-ładowarka</small><b><span data-count="200">200</span><span>zł/h</span></b></div>
+    <div class="pb"><small>Minikoparka</small><b><span data-count="120">120</span><span>zł/h</span></b></div>
+  </div>
+
   <div class="ticker" aria-hidden="true">
-    <div class="row" data-vel="1"><span>Ziemia przesiana <i>///</i> Kruszywa granitowe <i>///</i> Wykopy <i>///</i> Niwelacja <i>///</i> Korytowanie <i>///</i></span></div>
-    <div class="row o" data-vel="-1"><span>Rozbiórki <i>///</i> Transport <i>///</i> Minikoparka <i>///</i> Ekipa budowlana <i>///</i> Porządki <i>///</i></span></div>
+    <div class="row" data-vel="1"><span>Ziemia przesiana <i></i> Kruszywa granitowe <i></i> Wykopy <i></i> Niwelacja terenu <i></i> Korytowanie <i></i> Rozbiórki <i></i> Transport <i></i></span></div>
   </div>
 
   <!-- EQUATION -->
-  <section class="eq" aria-label="Wszystko w jednej firmie">
-    <div class="wrap" style="padding-inline:0">
-      <div class="eq-g">
-        <div class="eq-c" data-w><span class="meta">01</span><b>Materiał</b><span class="op" aria-hidden="true">+</span></div>
-        <div class="eq-c" data-w><span class="meta">02</span><b>Transport</b><span class="op" aria-hidden="true">+</span></div>
-        <div class="eq-c" data-w><span class="meta">03</span><b>Sprzęt</b><span class="op" aria-hidden="true">+</span></div>
-        <div class="eq-c" data-w><span class="meta">04</span><b>Ludzie</b><span class="op" aria-hidden="true">=</span></div>
-        <div class="eq-c eq-r" data-w><span class="meta">Wynik</span><b>Jeden telefon</b></div>
-      </div>
+  <section aria-label="Wszystko w jednej firmie">
+    <div class="eq-g">
+      <div class="eq-c" data-w><small>01</small><b>Materiał</b><span class="op" aria-hidden="true">+</span></div>
+      <div class="eq-c" data-w><small>02</small><b>Transport</b><span class="op" aria-hidden="true">+</span></div>
+      <div class="eq-c" data-w><small>03</small><b>Sprzęt</b><span class="op" aria-hidden="true">+</span></div>
+      <div class="eq-c" data-w><small>04</small><b>Ludzie</b><span class="op" aria-hidden="true">=</span></div>
+      <div class="eq-c eq-r" data-w><small>Razem</small><b>Jeden telefon</b></div>
     </div>
   </section>
 
   <!-- 01 MATERIALS -->
   <section class="sec" id="materialy" aria-labelledby="mat-h">
     <div class="wrap">
-      <header class="sh"><span class="tab"><b>01</b>Materiały</span><span class="meta">Ziemia / kruszywa · dowóz do 20 km</span></header>
-      <div class="sec-head">
-        <h2 id="mat-h" data-scr>Ziemia i kruszywa <em>z dowozem</em></h2>
-        <p class="intro" data-w>Ziemia przesiana do ogrodu i kruszywa granitowe na podjazdy, drogi i drenaże. Dodaj do zlecenia, a policzymy wszystko razem.</p>
-      </div>
+      <div class="sh" data-w><span class="num" aria-hidden="true">01</span><p class="kicker">Materiały</p><h2 id="mat-h">Ziemia i kruszywa <em>z dowozem</em></h2></div>
+      <p class="intro" data-w>Ziemia przesiana do ogrodu i kruszywa granitowe na podjazdy, drogi i drenaże. Dodaj do zlecenia, a policzymy wszystko razem.</p>
       <div class="mats">
-        <article class="mat" data-w>
-          <div class="mat-ph"><img src="img/ziemia-dlon-m.jpg" alt="Przesiana czarna ziemia na dłoni" width="720" height="540" loading="lazy" decoding="async"><span class="meta">Fig. 02 · Czarnoziem</span></div>
+        <article class="mat cut" data-w>
+          <div class="mat-ph"><img src="img/ziemia-dlon-m.jpg" alt="Przesiana czarna ziemia na dłoni" width="720" height="540" loading="lazy" decoding="async"><span class="tag">Czarnoziem</span></div>
           <div class="mat-b">
-            <p class="meta">Poz. 01 · Materiał sypki</p>
             <h3>Ziemia przesiana</h3>
-            <div class="mat-pr"><span class="flap" data-to="80" data-pad="2" role="img" aria-label="80">80</span><span class="meta">zł / tona</span></div>
-            <ul class="spec">
-              <li><span>Rodzaj</span>Czarnoziem przesiany</li>
-              <li><span>Do czego</span>Trawniki, ogrody, rabaty, wyrównanie terenu</li>
+            <p class="price"><span data-count="80">80</span><small>zł / tona</small></p>
+            <ul class="uses">
+              <li><svg class="ic"><use href="#i-check"/></svg>Trawniki i ogrody</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Rabaty, warzywniki, nasadzenia</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Wyrównanie terenu wokół domu</li>
             </ul>
-            <button class="btn btn-ink add" type="button" data-add="ziemia" aria-pressed="false"><span class="a-off"><svg class="ic"><use href="#i-plus"/></svg>Dodaj do zlecenia</span><span class="a-on"><svg class="ic"><use href="#i-check"/></svg>W zleceniu</span></button>
+            <button class="btn add" type="button" data-add="ziemia" aria-pressed="false"><span class="a-off"><svg class="ic"><use href="#i-plus"/></svg>Dodaj do zlecenia</span><span class="a-on"><svg class="ic"><use href="#i-check"/></svg>W zleceniu</span></button>
           </div>
         </article>
-        <article class="mat" data-w>
-          <div class="mat-ph"><img src="img/kruszywo-0-31-m.jpg" alt="Pryzma mieszanki granitowej 0/31" width="405" height="720" loading="lazy" decoding="async" style="object-position:50% 62%"><span class="meta">Fig. 03 · Granit 0/31</span></div>
+        <article class="mat cut" data-w>
+          <div class="mat-ph"><img src="img/kruszywo-0-31-m.jpg" alt="Pryzma mieszanki granitowej 0/31" width="405" height="720" loading="lazy" decoding="async" style="object-position:50% 62%"><span class="tag">Granit · 0/31</span></div>
           <div class="mat-b">
-            <p class="meta">Poz. 02 · Kruszywo</p>
             <h3>Mieszanka 0/31</h3>
-            <div class="mat-pr"><span class="flap" data-to="45" data-pad="2" role="img" aria-label="45">45</span><span class="meta">zł / tona</span></div>
-            <ul class="spec">
-              <li><span>Materiał</span>Granit, frakcja 0–31 mm</li>
-              <li><span>Do czego</span>Podbudowa pod kostkę, podjazdy, drogi, place</li>
+            <p class="price"><span data-count="45">45</span><small>zł / tona</small></p>
+            <ul class="uses">
+              <li><svg class="ic"><use href="#i-check"/></svg>Podbudowa pod kostkę brukową</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Podjazdy, drogi dojazdowe, parkingi</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Utwardzenie placów i dojazdów</li>
             </ul>
-            <button class="btn btn-ink add" type="button" data-add="m031" aria-pressed="false"><span class="a-off"><svg class="ic"><use href="#i-plus"/></svg>Dodaj do zlecenia</span><span class="a-on"><svg class="ic"><use href="#i-check"/></svg>W zleceniu</span></button>
+            <button class="btn add" type="button" data-add="m031" aria-pressed="false"><span class="a-off"><svg class="ic"><use href="#i-plus"/></svg>Dodaj do zlecenia</span><span class="a-on"><svg class="ic"><use href="#i-check"/></svg>W zleceniu</span></button>
           </div>
         </article>
-        <article class="mat" data-w>
-          <div class="mat-ph"><img src="img/kruszywo-16-31-m.jpg" alt="Pryzma granitowego kamienia drenażowego 16/31" width="540" height="720" loading="lazy" decoding="async" style="object-position:50% 72%"><span class="meta">Fig. 04 · Granit 16/31</span></div>
+        <article class="mat cut" data-w>
+          <div class="mat-ph"><img src="img/kruszywo-16-31-m.jpg" alt="Pryzma granitowego kamienia drenażowego 16/31" width="540" height="720" loading="lazy" decoding="async" style="object-position:50% 72%"><span class="tag">Granit · 16/31</span></div>
           <div class="mat-b">
-            <p class="meta">Poz. 03 · Kruszywo</p>
             <h3>Kamień drenażowy</h3>
-            <div class="mat-pr"><span class="flap" data-to="60" data-pad="2" role="img" aria-label="60">60</span><span class="meta">zł / tona</span></div>
-            <ul class="spec">
-              <li><span>Materiał</span>Granit, frakcja 16–31 mm</li>
-              <li><span>Do czego</span>Drenaże, opaski wokół domu, studnie chłonne</li>
+            <p class="price"><span data-count="60">60</span><small>zł / tona</small></p>
+            <ul class="uses">
+              <li><svg class="ic"><use href="#i-check"/></svg>Drenaże i odwodnienia</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Opaski wokół domu</li>
+              <li><svg class="ic"><use href="#i-check"/></svg>Studnie chłonne i rozsączanie</li>
             </ul>
-            <button class="btn btn-ink add" type="button" data-add="k1631" aria-pressed="false"><span class="a-off"><svg class="ic"><use href="#i-plus"/></svg>Dodaj do zlecenia</span><span class="a-on"><svg class="ic"><use href="#i-check"/></svg>W zleceniu</span></button>
+            <button class="btn add" type="button" data-add="k1631" aria-pressed="false"><span class="a-off"><svg class="ic"><use href="#i-plus"/></svg>Dodaj do zlecenia</span><span class="a-on"><svg class="ic"><use href="#i-check"/></svg>W zleceniu</span></button>
           </div>
         </article>
       </div>
       <div class="trans" data-w>
         <div class="th"><svg class="ic"><use href="#i-truck"/></svg><b>Transport</b></div>
-        <div><span class="meta">1–4 tony · do 20 km</span><strong>250 zł</strong></div>
-        <div class="yy"><span class="meta">Powyżej 25 ton · do 20 km</span><strong>Gratis</strong></div>
-        <div><span class="meta">Inne ilości i trasy</span><strong>Zadzwoń</strong></div>
+        <div><small>Od 1 do 4 ton · do 20 km</small><strong>250 zł</strong></div>
+        <div><small>Powyżej 25 ton · do 20 km</small><strong class="y">Gratis</strong></div>
+        <div><small>Inne ilości i dalsze trasy</small><strong>Zadzwoń</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCROLL-EXPAND PHOTO -->
+  <section class="expand" aria-labelledby="ex-h">
+    <div class="ex-stick">
+      <div class="ex-frame" id="exFrame">
+        <img src="img/koparka-plac-m.jpg" srcset="img/koparka-plac-m.jpg 540w, img/koparka-plac.jpg 1050w" sizes="100vw" alt="Koparko-ładowarka Volvo na placu przygotowanym pod garaże" width="1050" height="1400" loading="lazy" decoding="async">
+      </div>
+      <div class="ex-txt" id="exTxt">
+        <p class="kicker">Własny sprzęt</p>
+        <h2 id="ex-h">Własne maszyny. <em>Własna ekipa.</em></h2>
+        <p>Koparko-ładowarka, minikoparka i 3-osobowa ekipa gotowe do pracy w Kamiennej Górze i okolicach.</p>
       </div>
     </div>
   </section>
 
   <!-- 02 EQUIPMENT & CREW -->
-  <section class="sec" id="sprzet" aria-labelledby="spr-h">
+  <section class="sec alt" id="sprzet" aria-labelledby="spr-h">
     <div class="wrap">
-      <header class="sh"><span class="tab"><b>02</b>Sprzęt i ekipa</span><span class="meta">Za godziny albo za całość</span></header>
-      <div class="sec-head">
-        <h2 id="spr-h" data-scr>Maszyny <em>i ludzie</em> do roboty</h2>
-        <p class="intro" data-w>Koparko-ładowarka do dużych prac, minikoparka tam, gdzie jest ciasno, i 3-osobowa ekipa do wszystkiego, co trzeba zrobić rękami.</p>
-      </div>
+      <div class="sh" data-w><span class="num" aria-hidden="true">02</span><p class="kicker">Sprzęt i ekipa</p><h2 id="spr-h">Maszyny <em>i ludzie</em> do roboty</h2></div>
+      <p class="intro" data-w>Koparko-ładowarka do dużych prac, minikoparka tam, gdzie jest ciasno, i ekipa do wszystkiego, co trzeba zrobić rękami. Za godziny albo za całość.</p>
       <div class="stack">
         <article class="sc" style="--i:0">
-          <div class="sc-ph"><img src="img/lyzka-ziemia-m.jpg" alt="Koparko-ładowarka z łyżką pełną ziemi" width="701" height="720" loading="lazy" decoding="async" style="object-position:40% 45%"><span class="meta">Fig. 05 · Koparko-ładowarka</span></div>
+          <div class="sc-ph"><img src="img/lyzka-ziemia-m.jpg" alt="Koparko-ładowarka z łyżką pełną ziemi" width="701" height="720" loading="lazy" decoding="async" style="object-position:40% 45%"></div>
           <div class="sc-b">
-            <p class="meta">Poz. 04 · Sprzęt</p>
             <h3>Koparko-ładowarka</h3>
-            <p class="rate">200<small>zł / godz.</small></p>
-            <ul><li>Wykopy pod fundamenty, przyłącza i szamba</li><li>Niwelacja terenu i korytowanie pod kostkę</li><li>Załadunek oraz przenoszenie palet widłami</li></ul>
+            <p class="price"><span data-count="200">200</span><small>zł / godz.</small></p>
+            <ul><li><svg class="ic"><use href="#i-check"/></svg>Wykopy pod fundamenty, przyłącza i szamba</li><li><svg class="ic"><use href="#i-check"/></svg>Niwelacja terenu i korytowanie pod kostkę</li><li><svg class="ic"><use href="#i-check"/></svg>Załadunek oraz przenoszenie palet widłami</li></ul>
             <button class="btn add" type="button" data-add="koparka" aria-pressed="false"><span class="a-off"><svg class="ic"><use href="#i-plus"/></svg>Dodaj do zlecenia</span><span class="a-on"><svg class="ic"><use href="#i-check"/></svg>W zleceniu</span></button>
           </div>
         </article>
         <article class="sc" style="--i:1">
-          <div class="sc-ph"><img src="img/minikoparka-m.jpg" alt="Minikoparka przy wykopie wzdłuż ceglanej ściany" width="405" height="720" loading="lazy" decoding="async" style="object-position:50% 50%"><span class="meta">Fig. 06 · Minikoparka</span></div>
+          <div class="sc-ph"><img src="img/minikoparka-m.jpg" alt="Minikoparka przy wykopie wzdłuż ceglanej ściany" width="405" height="720" loading="lazy" decoding="async" style="object-position:50% 50%"></div>
           <div class="sc-b">
-            <p class="meta">Poz. 05 · Sprzęt</p>
             <h3>Minikoparka</h3>
-            <p class="rate">120<small>zł / godz.</small></p>
-            <ul><li>Wąskie przejścia i prace przy budynkach</li><li>Ogrody, przyłącza, drobne wykopy</li><li>Tam, gdzie duża maszyna nie wjedzie</li></ul>
+            <p class="price"><span data-count="120">120</span><small>zł / godz.</small></p>
+            <ul><li><svg class="ic"><use href="#i-check"/></svg>Wąskie przejścia i prace przy budynkach</li><li><svg class="ic"><use href="#i-check"/></svg>Ogrody, przyłącza, drobne wykopy</li><li><svg class="ic"><use href="#i-check"/></svg>Tam, gdzie duża maszyna nie wjedzie</li></ul>
             <button class="btn add" type="button" data-add="mini" aria-pressed="false"><span class="a-off"><svg class="ic"><use href="#i-plus"/></svg>Dodaj do zlecenia</span><span class="a-on"><svg class="ic"><use href="#i-check"/></svg>W zleceniu</span></button>
           </div>
         </article>
         <article class="sc" style="--i:2">
-          <div class="sc-ph"><img src="img/ekipa-bus-m.jpg" alt="Pracownik ekipy przy busie z łopatami" width="540" height="720" loading="lazy" decoding="async" style="object-position:50% 62%"><span class="meta">Fig. 07 · Ekipa</span></div>
+          <div class="sc-ph"><img src="img/ekipa-bus-m.jpg" alt="Pracownik ekipy przy busie z łopatami" width="540" height="720" loading="lazy" decoding="async" style="object-position:50% 62%"></div>
           <div class="sc-b">
-            <p class="meta">Poz. 06 · Usługi budowlane</p>
             <h3>Ekipa 3-osobowa</h3>
             <div class="rates">
-              <div><span class="meta">1 pracownik</span><b>70<small>zł/h</small></b></div>
-              <div class="y"><span class="meta">Cała ekipa</span><b>210<small>zł/h</small></b></div>
-              <div class="full"><strong>Albo za całość</strong> – cena za wykonaną pracę ustalana indywidualnie.</div>
+              <div class="rate"><small>1 pracownik</small><b>70<span>zł/h</span></b></div>
+              <div class="rate y"><small>Cała ekipa</small><b>210<span>zł/h</span></b></div>
+              <div class="rate full"><strong>Albo za całość</strong> – cena za wykonaną pracę ustalana indywidualnie.</div>
             </div>
-            <ul><li>Skuwanie tynków i usuwanie starych powłok</li><li>Montaż ogrodzeń i konstrukcji stalowych</li><li>Sprzątanie garaży, piwnic i budynków</li><li>Wynoszenie gruzu i porządki po remontach</li><li>Rozbiórki, demontaże, pomoc na budowie</li></ul>
+            <ul><li><svg class="ic"><use href="#i-check"/></svg>Skuwanie tynków i usuwanie starych powłok</li><li><svg class="ic"><use href="#i-check"/></svg>Montaż ogrodzeń i konstrukcji stalowych</li><li><svg class="ic"><use href="#i-check"/></svg>Sprzątanie garaży, piwnic i budynków</li><li><svg class="ic"><use href="#i-check"/></svg>Wynoszenie gruzu, rozbiórki, pomoc na budowie</li></ul>
             <button class="btn add" type="button" data-add="ekipa" aria-pressed="false"><span class="a-off"><svg class="ic"><use href="#i-plus"/></svg>Dodaj do zlecenia</span><span class="a-on"><svg class="ic"><use href="#i-check"/></svg>W zleceniu</span></button>
           </div>
         </article>
       </div>
 
-      <div class="reg" data-w>
-        <div class="reg-g"><h3><span class="meta">A</span>Wykopy</h3><ol><li><span>A.1</span>Pod fundamenty, ławy i budynki</li><li><span>A.2</span>Pod przyłącza wodne, kanalizacyjne i elektryczne</li><li><span>A.3</span>Pod szamba i zbiorniki</li><li><span>A.4</span>Pod ogrodzenia</li><li><span>A.5</span>Zasypywanie fundamentów i wykopów</li></ol></div>
-        <div class="reg-g"><h3><span class="meta">B</span>Teren</h3><ol><li><span>B.1</span>Przygotowanie terenu pod budowę</li><li><span>B.2</span>Niwelacja i wyrównywanie terenu</li><li><span>B.3</span>Korytowanie pod kostkę brukową i podjazdy</li><li><span>B.4</span>Przygotowanie terenu pod drogi i parkingi</li><li><span>B.5</span>Usuwanie korzeni, krzaków i przeszkód</li></ol></div>
-        <div class="reg-g"><h3><span class="meta">C</span>Załadunek</h3><ol><li><span>C.1</span>Załadunek ziemi, gruzu i kruszyw</li><li><span>C.2</span>Rozładunek i przenoszenie palet widłami</li><li><span>C.3</span>Załadunek i przemieszczanie materiałów sypkich</li></ol></div>
-        <div class="reg-g"><h3><span class="meta">D</span>Porządki i ekipa</h3><ol><li><span>D.1</span>Porządkowanie działek i terenów budowlanych</li><li><span>D.2</span>Rozbiórki i prace pomocnicze na budowie</li><li><span>D.3</span>Skuwanie tynków, montaż ogrodzeń i konstrukcji</li><li><span>D.4</span>Sprzątanie, wynoszenie gruzu, inne prace fizyczne</li></ol></div>
+      <div class="svc">
+        <div class="sg" data-w><h3>Wykopy</h3><ul><li>Pod fundamenty, ławy i budynki</li><li>Pod przyłącza wodne, kanalizacyjne i elektryczne</li><li>Pod szamba i zbiorniki</li><li>Pod ogrodzenia</li><li>Zasypywanie fundamentów i wykopów</li></ul></div>
+        <div class="sg" data-w><h3>Teren</h3><ul><li>Przygotowanie terenu pod budowę</li><li>Niwelacja i wyrównywanie terenu</li><li>Korytowanie pod kostkę i podjazdy</li><li>Przygotowanie terenu pod drogi i parkingi</li></ul></div>
+        <div class="sg" data-w><h3>Załadunek</h3><ul><li>Załadunek ziemi, gruzu i kruszyw</li><li>Rozładunek i przenoszenie palet widłami</li><li>Przemieszczanie materiałów sypkich</li></ul></div>
+        <div class="sg" data-w><h3>Porządki</h3><ul><li>Usuwanie korzeni, krzaków i przeszkód</li><li>Porządkowanie działek i terenów budowlanych</li><li>Rozbiórki i prace pomocnicze na budowie</li></ul></div>
       </div>
     </div>
   </section>
 
-  <!-- 03 PRICE BOARD -->
+  <!-- 03 PRICE LIST -->
   <section class="sec" id="cennik" aria-labelledby="cen-h">
     <div class="wrap">
-      <header class="sh"><span class="tab"><b>03</b>Cennik</span><span class="meta">Ceny końcowe · bez VAT</span></header>
-      <div class="sec-head">
-        <h2 id="cen-h" data-scr>Tablica <em>cen</em></h2>
-        <p class="intro" data-w>Wszystko w jednym miejscu, bez gwiazdek i drobnego druku. Większe zamówienie albo nietypowa robota? Zadzwoń, dogadamy się.</p>
+      <div class="sh" data-w><span class="num" aria-hidden="true">03</span><p class="kicker">Cennik</p><h2 id="cen-h">Wszystkie ceny <em>w jednym miejscu</em></h2></div>
+      <p class="intro" data-w>Bez gwiazdek i drobnego druku. Większe zamówienie albo nietypowa robota? Zadzwoń, dogadamy się.</p>
+      <div class="plist cut" data-w>
+        <div class="prow head"><span>Materiały</span><span>Cena</span></div>
+        <div class="prow"><b>Ziemia przesiana</b><small>czarnoziem, do ogrodu i pod trawnik</small><span class="v">80 zł<span>/t</span></span></div>
+        <div class="prow"><b>Mieszanka 0/31</b><small>granit, podbudowa, podjazdy, drogi</small><span class="v">45 zł<span>/t</span></span></div>
+        <div class="prow"><b>Kamień drenażowy 16/31</b><small>granit, drenaże, opaski, odwodnienia</small><span class="v">60 zł<span>/t</span></span></div>
+        <div class="prow head"><span>Transport do 20 km</span><span></span></div>
+        <div class="prow"><b>Od 1 do 4 ton</b><small>za kurs</small><span class="v">250 zł</span></div>
+        <div class="prow"><b>Powyżej 25 ton</b><small>transport w cenie</small><span class="v">gratis</span></div>
+        <div class="prow head"><span>Sprzęt i ekipa</span><span></span></div>
+        <div class="prow"><b>Koparko-ładowarka</b><small>wykopy, niwelacja, załadunek, palety</small><span class="v">200 zł<span>/h</span></span></div>
+        <div class="prow"><b>Minikoparka</b><small>wąskie przejścia, prace przy budynkach</small><span class="v">120 zł<span>/h</span></span></div>
+        <div class="prow"><b>Pracownik</b><small>prace budowlane i porządkowe</small><span class="v">70 zł<span>/h</span></span></div>
+        <div class="prow"><b>Ekipa 3-osobowa</b><small>albo cena za całość, ustalana indywidualnie</small><span class="v">210 zł<span>/h</span></span></div>
       </div>
-      <div class="dep" data-w>
-        <div class="dep-h"><span class="meta">Pozycja</span><span class="meta">Jednostka</span><span class="meta" style="text-align:right">Cena</span></div>
-        <div class="dep-g meta">Materiały</div>
-        <div class="dep-r"><span class="dn">Ziemia przesiana<small>czarnoziem</small></span><span class="du meta">zł / tona</span><span class="flap" data-to="80" data-pad="3" role="img" aria-label="80 zł za tonę">80</span></div>
-        <div class="dep-r"><span class="dn">Mieszanka 0/31<small>granit</small></span><span class="du meta">zł / tona</span><span class="flap" data-to="45" data-pad="3" role="img" aria-label="45 zł za tonę">45</span></div>
-        <div class="dep-r"><span class="dn">Kamień drenażowy 16/31<small>granit</small></span><span class="du meta">zł / tona</span><span class="flap" data-to="60" data-pad="3" role="img" aria-label="60 zł za tonę">60</span></div>
-        <div class="dep-g meta">Transport · do 20 km</div>
-        <div class="dep-r"><span class="dn">Od 1 do 4 ton</span><span class="du meta">zł / kurs</span><span class="flap" data-to="250" data-pad="3" role="img" aria-label="250 zł">250</span></div>
-        <div class="dep-r"><span class="dn">Powyżej 25 ton</span><span class="du meta">transport</span><span class="flap" data-to="GRATIS" data-pad="6" role="img" aria-label="gratis">GRATIS</span></div>
-        <div class="dep-g meta">Sprzęt i ekipa</div>
-        <div class="dep-r"><span class="dn">Koparko-ładowarka</span><span class="du meta">zł / godz.</span><span class="flap" data-to="200" data-pad="3" role="img" aria-label="200 zł za godzinę">200</span></div>
-        <div class="dep-r"><span class="dn">Minikoparka</span><span class="du meta">zł / godz.</span><span class="flap" data-to="120" data-pad="3" role="img" aria-label="120 zł za godzinę">120</span></div>
-        <div class="dep-r"><span class="dn">Pracownik</span><span class="du meta">zł / godz.</span><span class="flap" data-to="70" data-pad="3" role="img" aria-label="70 zł za godzinę">70</span></div>
-        <div class="dep-r"><span class="dn">Ekipa 3-osobowa<small>albo za całość – indywidualnie</small></span><span class="du meta">zł / godz.</span><span class="flap" data-to="210" data-pad="3" role="img" aria-label="210 zł za godzinę">210</span></div>
-      </div>
-      <div class="dep-note"><span class="meta">Ceny końcowe – nie doliczamy VAT</span><span class="meta">Transport innych ilości i dalsze trasy – wycena indywidualna</span></div>
+      <p class="pnote" data-w><strong>Ceny końcowe – nie doliczamy VAT.</strong> Transport innych ilości i na dalsze trasy wyceniamy indywidualnie.</p>
     </div>
   </section>
 
   <!-- 04 GALLERY -->
-  <section class="sec" id="realizacje" aria-labelledby="real-h">
+  <section class="sec alt" id="realizacje" aria-labelledby="real-h">
     <div class="wrap">
-      <header class="sh"><span class="tab"><b>04</b>Realizacje</span><span class="meta">Arkusz stykowy · 14 klatek</span></header>
-      <div class="sec-head">
-        <h2 id="real-h" data-scr>Z placu <em>budowy</em></h2>
-        <p class="intro" data-w>Prawdziwe zdjęcia z naszych zleceń, bez obrazków z internetu. Dotknij klatki, żeby ją powiększyć.</p>
-      </div>
-      <div class="sheet" id="gal" data-w>
-        <button type="button" class="w" data-full="img/koparka-plac.jpg"><img src="img/koparka-plac-m.jpg" alt="Koparko-ładowarka na placu pod garaże" width="540" height="720" loading="lazy" decoding="async" style="object-position:30% 62%"><span class="meta"><b>01A</b>Plac pod garaże</span></button>
-        <button type="button" data-full="img/ziemia-dom.jpg"><img src="img/ziemia-dom-m.jpg" alt="Pryzma ziemi przesianej przed nowym domem" width="540" height="720" loading="lazy" decoding="async"><span class="meta"><b>02A</b>Ziemia pod ogród</span></button>
-        <button type="button" data-full="img/kruszywo-16-31.jpg"><img src="img/kruszywo-16-31-m.jpg" alt="Kamień granitowy na działce budowlanej" width="540" height="720" loading="lazy" decoding="async"><span class="meta"><b>03A</b>Kamień 16/31</span></button>
-        <button type="button" data-full="img/minikoparka.jpg"><img src="img/minikoparka-m.jpg" alt="Minikoparka przy wykopie obok budynku" width="405" height="720" loading="lazy" decoding="async"><span class="meta"><b>04A</b>Minikoparka</span></button>
-        <button type="button" data-full="img/ziemia-garsc.jpg"><img src="img/ziemia-garsc-m.jpg" alt="Garść przesianej ziemi" width="540" height="720" loading="lazy" decoding="async"><span class="meta"><b>05A</b>Przesiana ziemia</span></button>
-        <button type="button" class="w" data-full="img/koparka-dzialka.jpg"><img src="img/koparka-dzialka-m.jpg" alt="Porządkowanie zarośniętej działki koparko-ładowarką" width="540" height="720" loading="lazy" decoding="async" style="object-position:40% 62%"><span class="meta"><b>06A</b>Porządki na działce</span></button>
-        <button type="button" data-full="img/kruszywo-0-31.jpg"><img src="img/kruszywo-0-31-m.jpg" alt="Mieszanka granitowa 0/31 na działce" width="405" height="720" loading="lazy" decoding="async"><span class="meta"><b>07A</b>Mieszanka 0/31</span></button>
-        <button type="button" data-full="img/ziemia-pryzma.jpg"><img src="img/ziemia-pryzma-m.jpg" alt="Dostawa ziemi przesianej" width="540" height="720" loading="lazy" decoding="async"><span class="meta"><b>08A</b>Dostawa ziemi</span></button>
-        <button type="button" data-full="img/rozbiorka-strych-1.jpg"><img src="img/rozbiorka-strych-1-m.jpg" alt="Prace rozbiórkowe na strychu starego budynku" width="540" height="720" loading="lazy" decoding="async"><span class="meta"><b>09A</b>Rozbiórka</span></button>
-        <button type="button" data-full="img/rozbiorka-strych-2.jpg"><img src="img/rozbiorka-strych-2-m.jpg" alt="Strych po pracach demontażowych" width="540" height="720" loading="lazy" decoding="async"><span class="meta"><b>10A</b>Demontaż</span></button>
-        <button type="button" data-full="img/koparka-volvo.jpg"><img src="img/koparka-volvo-m.jpg" alt="Koparko-ładowarka Volvo BL71" width="540" height="720" loading="lazy" decoding="async"><span class="meta"><b>11A</b>Volvo BL71</span></button>
-        <button type="button" data-full="img/ziemia-dlon.jpg"><img src="img/ziemia-dlon-m.jpg" alt="Czarnoziem na dłoni" width="720" height="540" loading="lazy" decoding="async"><span class="meta"><b>12A</b>Czarnoziem</span></button>
-        <button type="button" data-full="img/lyzka-ziemia.jpg"><img src="img/lyzka-ziemia-m.jpg" alt="Łyżka koparko-ładowarki pełna ziemi" width="701" height="720" loading="lazy" decoding="async"><span class="meta"><b>13A</b>Załadunek</span></button>
-        <button type="button" data-full="img/ekipa-bus.jpg"><img src="img/ekipa-bus-m.jpg" alt="Ekipa przy pracy" width="540" height="720" loading="lazy" decoding="async"><span class="meta"><b>14A</b>Ekipa</span></button>
+      <div class="sh" data-w><span class="num" aria-hidden="true">04</span><p class="kicker">Realizacje</p><h2 id="real-h">Zobacz, <em>jak pracujemy</em></h2></div>
+      <p class="intro" data-w>Prawdziwe zdjęcia z naszych zleceń. Dotknij zdjęcia, żeby je powiększyć.</p>
+      <div class="gal" id="gal" data-w>
+        <button type="button" data-full="img/koparka-volvo.jpg"><img src="img/koparka-volvo-m.jpg" alt="Koparko-ładowarka Volvo BL71" width="540" height="720" loading="lazy" decoding="async"><span>Koparko-ładowarka Volvo</span></button>
+        <button type="button" data-full="img/ziemia-dom.jpg"><img src="img/ziemia-dom-m.jpg" alt="Pryzma ziemi przesianej przed nowym domem" width="540" height="720" loading="lazy" decoding="async"><span>Ziemia pod ogród</span></button>
+        <button type="button" data-full="img/kruszywo-16-31.jpg"><img src="img/kruszywo-16-31-m.jpg" alt="Kamień granitowy na działce budowlanej" width="540" height="720" loading="lazy" decoding="async"><span>Kamień 16/31</span></button>
+        <button type="button" data-full="img/lyzka-ziemia.jpg"><img src="img/lyzka-ziemia-m.jpg" alt="Łyżka koparko-ładowarki pełna ziemi" width="701" height="720" loading="lazy" decoding="async"><span>Załadunek ziemi</span></button>
+        <button type="button" data-full="img/koparka-plac.jpg"><img src="img/koparka-plac-m.jpg" alt="Plac przygotowany pod garaże" width="540" height="720" loading="lazy" decoding="async"><span>Plac pod garaże</span></button>
+        <button type="button" data-full="img/ziemia-garsc.jpg"><img src="img/ziemia-garsc-m.jpg" alt="Garść przesianej ziemi" width="540" height="720" loading="lazy" decoding="async"><span>Przesiana ziemia</span></button>
+        <button type="button" data-full="img/minikoparka.jpg"><img src="img/minikoparka-m.jpg" alt="Minikoparka przy wykopie obok budynku" width="405" height="720" loading="lazy" decoding="async"><span>Minikoparka</span></button>
+        <button type="button" data-full="img/ziemia-pryzma.jpg"><img src="img/ziemia-pryzma-m.jpg" alt="Dostawa ziemi przesianej" width="540" height="720" loading="lazy" decoding="async"><span>Dostawa ziemi</span></button>
+        <button type="button" data-full="img/koparka-dzialka.jpg"><img src="img/koparka-dzialka-m.jpg" alt="Porządkowanie zarośniętej działki" width="540" height="720" loading="lazy" decoding="async"><span>Porządki na działce</span></button>
+        <button type="button" data-full="img/kruszywo-0-31.jpg"><img src="img/kruszywo-0-31-m.jpg" alt="Mieszanka granitowa 0/31 na działce" width="405" height="720" loading="lazy" decoding="async"><span>Mieszanka 0/31</span></button>
+        <button type="button" data-full="img/rozbiorka-strych-2.jpg"><img src="img/rozbiorka-strych-2-m.jpg" alt="Strych po pracach demontażowych" width="540" height="720" loading="lazy" decoding="async"><span>Prace rozbiórkowe</span></button>
+        <button type="button" data-full="img/ekipa-bus.jpg"><img src="img/ekipa-bus-m.jpg" alt="Ekipa przy pracy" width="540" height="720" loading="lazy" decoding="async"><span>Ekipa przy pracy</span></button>
+        <button type="button" data-full="img/ziemia-dlon.jpg"><img src="img/ziemia-dlon-m.jpg" alt="Czarnoziem na dłoni" width="720" height="540" loading="lazy" decoding="async"><span>Czarnoziem</span></button>
+        <button type="button" data-full="img/rozbiorka-strych-1.jpg"><img src="img/rozbiorka-strych-1-m.jpg" alt="Demontaż na strychu starego budynku" width="540" height="720" loading="lazy" decoding="async"><span>Demontaż na strychu</span></button>
       </div>
     </div>
   </section>
@@ -734,17 +678,15 @@
   <!-- 05 WORK ORDER -->
   <section class="sec" id="zlecenie" aria-labelledby="zl-h">
     <div class="wrap">
-      <header class="sh"><span class="tab"><b>05</b>Zlecenie</span><span class="meta">Wysyłka przez WhatsApp</span></header>
-      <div class="sec-head">
-        <h2 id="zl-h" data-scr>Karta <em>zlecenia</em></h2>
-        <p class="intro" data-w>Zaznacz wszystko, czego potrzebujesz, nawet kilka rzeczy naraz. Od razu zobaczysz orientacyjny koszt, a gotową kartę wyślesz na WhatsApp.</p>
-      </div>
+      <div class="sh" data-w><span class="num" aria-hidden="true">05</span><p class="kicker">Zamów przez WhatsApp</p><h2 id="zl-h">Złóż <em>zlecenie</em></h2></div>
+      <p class="intro" data-w>Zaznacz wszystko, czego potrzebujesz, nawet kilka rzeczy naraz. Od razu zobaczysz orientacyjny koszt, a gotową wiadomość wyślesz na WhatsApp.</p>
       <div class="wo">
-        <form class="wo-form" id="cfg" action="https://wa.me/48504409208" method="get" target="_blank" novalidate data-w>
-          <div class="wo-h meta"><span>Karta zlecenia · CAN</span><span>Pozycji: <b data-count-items>0</b></span></div>
+        <form class="wo-form cut" id="cfg" action="https://wa.me/48504409208" method="get" target="_blank" novalidate data-w>
+          <div class="wo-h"><span>Twoje zlecenie</span><span>Pozycji:<b data-count-items>0</b></span></div>
 
           <div class="wo-s">
-            <h3>Co zamawiasz? <span class="meta">możesz zaznaczyć kilka</span></h3>
+            <h3>Co zamawiasz?</h3>
+            <p class="sub">Możesz zaznaczyć kilka pozycji.</p>
             <div class="items">
               <div class="it" data-k="ziemia">
                 <label class="it-row"><input type="checkbox" name="it" value="ziemia"><span class="box"></span><span class="nm">Ziemia przesiana</span><span class="pr">80 zł/t</span></label>
@@ -775,19 +717,19 @@
                 </div>
               </div>
             </div>
-            <p class="hint">Wskazówka: liczbę możesz też zmienić, przeciągając palcem lub myszką w bok.</p>
           </div>
 
           <div class="wo-s" id="woMat" hidden>
             <h3>Dostawa materiału</h3>
-            <div class="wo-grid">
+            <div class="wo-grid" style="margin-top:12px">
               <div><span class="fl">Sposób</span><div class="seg"><label><input type="radio" name="dost" value="dowoz" checked><span>Z dowozem</span></label><label><input type="radio" name="dost" value="odbior"><span>Odbiór własny</span></label></div></div>
               <div data-show-dost="dowoz"><span class="fl">Odległość</span><div class="seg"><label><input type="radio" name="km" value="20" checked><span>Do 20 km</span></label><label><input type="radio" name="km" value="20+"><span>Powyżej 20 km</span></label></div></div>
             </div>
           </div>
 
           <div class="wo-s" id="woWork" hidden>
-            <h3>Rodzaj prac <span class="meta">nieobowiązkowo</span></h3>
+            <h3>Rodzaj prac</h3>
+            <p class="sub">Nieobowiązkowo – zaznacz, jeśli wiesz.</p>
             <div class="seg">
               <label><input type="checkbox" name="prace" value="wykopy pod fundamenty"><span>Fundamenty</span></label>
               <label><input type="checkbox" name="prace" value="przyłącza"><span>Przyłącza</span></label>
@@ -805,30 +747,30 @@
 
           <div class="wo-s">
             <h3>Gdzie i kiedy?</h3>
-            <div class="wo-grid">
+            <div class="wo-grid" style="margin-top:12px">
               <div class="fld"><label class="fl" for="miejsce">Miejscowość</label><input id="miejsce" type="text" autocomplete="address-level2" placeholder="np. Kamienna Góra"></div>
               <div class="fld"><label class="fl" for="imie">Imię (nieobowiązkowo)</label><input id="imie" type="text" autocomplete="given-name" placeholder="np. Tomek"></div>
             </div>
-            <div style="margin-top:14px"><span class="fl">Termin</span><div class="seg"><label><input type="radio" name="termin" value="jak najszybciej" checked><span>Jak najszybciej</span></label><label><input type="radio" name="termin" value="w tym tygodniu"><span>W tym tygodniu</span></label><label><input type="radio" name="termin" value="data"><span>Konkretny dzień</span></label></div></div>
-            <div class="fld" data-show-termin="data" hidden style="margin-top:14px"><label class="fl" for="data">Dzień</label><input id="data" type="date"></div>
-            <div class="fld" style="margin-top:14px"><label class="fl" for="uwagi">Uwagi (nieobowiązkowo)</label><textarea id="uwagi" placeholder="np. wąska brama 2,5 m, dojazd od strony lasu"></textarea></div>
+            <div style="margin-top:16px"><span class="fl">Termin</span><div class="seg"><label><input type="radio" name="termin" value="jak najszybciej" checked><span>Jak najszybciej</span></label><label><input type="radio" name="termin" value="w tym tygodniu"><span>W tym tygodniu</span></label><label><input type="radio" name="termin" value="data"><span>Konkretny dzień</span></label></div></div>
+            <div class="fld" data-show-termin="data" hidden style="margin-top:16px"><label class="fl" for="data">Dzień</label><input id="data" type="date"></div>
+            <div class="fld" style="margin-top:16px"><label class="fl" for="uwagi">Uwagi (nieobowiązkowo)</label><textarea id="uwagi" placeholder="np. wąska brama 2,5 m, dojazd od strony lasu"></textarea></div>
           </div>
         </form>
 
-        <aside class="slip" aria-live="polite" data-w>
-          <div class="slip-h"><h3>Kopia zlecenia</h3><span class="meta" id="slipDate"></span></div>
-          <div class="slip-b"><ul class="lines" id="lines"><li class="empty">Nic jeszcze nie zaznaczono.</li></ul></div>
+        <aside class="sum cut" aria-live="polite" data-w>
+          <div class="sum-h"><h3>Podsumowanie</h3></div>
+          <ul class="lines" id="lines"><li class="empty">Nic jeszcze nie zaznaczono.</li></ul>
           <div class="tot">
-            <div class="meta"><span>Orientacyjny koszt</span><span>wg cennika</span></div>
+            <small>Orientacyjny koszt wg cennika</small>
             <div class="odo"><span class="odo-n" id="odo" aria-hidden="true"></span><small>zł</small><span class="sr-only" id="odoSr">0 zł</span></div>
             <p id="totNote">Zaznacz co najmniej jedną pozycję.</p>
           </div>
-          <p class="bubble-t meta">Treść wiadomości</p>
+          <p class="bubble-t">Wiadomość na WhatsApp</p>
           <p class="bubble" id="bubble"></p>
           <div class="send">
             <div class="slide" id="slide" role="slider" tabindex="0" aria-label="Przesuń, aby wysłać zlecenie na WhatsApp" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-disabled="true">
               <span class="slide-fill"></span>
-              <span class="slide-txt" id="slideTxt">Przesuń, aby wysłać &gt;&gt;&gt;</span>
+              <span class="slide-txt" id="slideTxt">Przesuń, aby wysłać</span>
               <span class="slide-knob"><svg class="ic"><use href="#i-wa"/></svg></span>
             </div>
             <button class="alt-send" type="submit" form="cfg">albo wyślij zwykłym przyciskiem</button>
@@ -843,16 +785,16 @@
   <section class="con" id="kontakt" aria-labelledby="kon-h">
     <div class="wrap">
       <div>
-        <span class="tab"><b>06</b>Kontakt</span>
-        <h2 id="kon-h" data-scr style="margin-top:22px">Zadzwoń lub napisz</h2>
+        <p class="kicker">Kontakt</p>
+        <h2 id="kon-h">Zadzwoń lub napisz</h2>
         <a class="big-tel" href="tel:+48504409208" aria-label="Zadzwoń: 504 409 208">504 409 208</a>
-        <p>Pytasz, my wyceniamy i dogadujemy szczegóły. Bez maili i formularzy, po prostu telefon albo WhatsApp.</p>
-        <span class="who meta"><svg class="ic"><use href="#i-pin"/></svg>Can Guzel · Kamienna Góra i okolice</span>
+        <p>Pytasz, my wyceniamy i dogadujemy szczegóły. Po prostu telefon albo WhatsApp.</p>
+        <p class="who"><svg class="ic"><use href="#i-pin"/></svg>Can Guzel · Kamienna Góra i okolice</p>
       </div>
       <div class="con-btns">
-        <a class="btn btn-ink" href="tel:+48504409208"><svg class="ic"><use href="#i-phone"/></svg>Zadzwoń teraz</a>
-        <a class="btn btn-paper" href="https://wa.me/48504409208?text=Dzie%C5%84%20dobry%21%20Pisz%C4%99%20ze%20strony%20cang.pl." target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg>Napisz na WhatsApp</a>
-        <a class="btn btn-paper" href="#zlecenie"><svg class="ic"><use href="#i-list"/></svg>Karta zlecenia</a>
+        <a class="btn" href="tel:+48504409208"><svg class="ic"><use href="#i-phone"/></svg>Zadzwoń teraz</a>
+        <a class="btn" href="https://wa.me/48504409208?text=Dzie%C5%84%20dobry%21%20Pisz%C4%99%20ze%20strony%20cang.pl." target="_blank" rel="noopener"><svg class="ic"><use href="#i-wa"/></svg>Napisz na WhatsApp</a>
+        <a class="btn" href="#zlecenie"><svg class="ic"><use href="#i-list"/></svg>Złóż zlecenie</a>
       </div>
     </div>
   </section>
@@ -878,13 +820,13 @@
 <div class="toast" id="toast" role="status"><span id="toastTxt"></span><a href="#zlecenie">Zobacz</a></div>
 
 <dialog class="lb" id="lb" aria-label="Powiększone zdjęcie">
-  <div class="lb-top"><span class="meta" id="lb-count"></span><button class="sq" type="button" data-close aria-label="Zamknij"><svg class="ic"><use href="#i-x"/></svg></button></div>
+  <div class="lb-top"><span class="lb-count" id="lb-count"></span><button class="sq" type="button" data-close aria-label="Zamknij"><svg class="ic"><use href="#i-x"/></svg></button></div>
   <div class="lb-stage" id="lb-stage">
     <img id="lb-img" alt="">
     <button class="sq lb-prev" type="button" aria-label="Poprzednie zdjęcie"><svg class="ic"><use href="#i-left"/></svg></button>
     <button class="sq lb-next" type="button" aria-label="Następne zdjęcie"><svg class="ic"><use href="#i-right"/></svg></button>
   </div>
-  <p class="lb-cap meta" id="lb-cap"></p>
+  <p class="lb-cap" id="lb-cap"></p>
 </dialog>
 
 <dialog class="pp" id="pp" aria-labelledby="pp-title">
@@ -894,7 +836,7 @@
     <p>Administratorem danych osobowych jest Can Guzel (CAN – Ziemia, Kruszywa, Usługi, Kamienna Góra i okolice). W sprawach dotyczących danych możesz zadzwonić pod numer <a href="tel:+48504409208">504 409 208</a>.</p>
     <h3>2. Jakie dane do nas trafiają</h3>
     <p>Strona nie ma formularza, który wysyłałby dane na serwer. Dane dostajemy tylko wtedy, gdy sam się z nami skontaktujesz: telefonicznie albo przez WhatsApp. Zwykle są to imię, numer telefonu, miejscowość i treść wiadomości.</p>
-    <p>Karta zlecenia działa wyłącznie w Twojej przeglądarce. Przygotowuje treść wiadomości, którą sam wysyłasz przez WhatsApp. Dopóki jej nie wyślesz, nic do nas nie trafia.</p>
+    <p>Formularz zlecenia działa wyłącznie w Twojej przeglądarce. Przygotowuje treść wiadomości, którą sam wysyłasz przez WhatsApp. Dopóki jej nie wyślesz, nic do nas nie trafia.</p>
     <h3>3. Cel i podstawa</h3>
     <ul>
       <li>Odpowiedź na wiadomość, przygotowanie wyceny i realizacja zamówienia (art. 6 ust. 1 lit. b RODO).</li>
