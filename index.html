@@ -44,7 +44,7 @@
     --text:#F3F1EA;--muted:#BDB8AC;--y:#F5B315;--y-2:#FFC845;--ink:#111110;
     --cond:"Barlow Condensed","Arial Narrow",Impact,sans-serif;
     --body:"Barlow","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    --wrap:1280px;--g:18px;--header-h:62px;--cut:16px;
+    --wrap:1280px;--g:18px;--header-h:66px;--cut:16px;
     --snap:cubic-bezier(.2,.9,.1,1);
   }
   @media (min-width:768px){:root{--g:36px}}
@@ -93,7 +93,9 @@
   .top.hide{transform:translateY(calc(-100% - 5px))}
   .top::after{content:"";position:absolute;left:0;right:0;bottom:-5px;height:5px;background:repeating-linear-gradient(-45deg,var(--y) 0 10px,var(--ink) 10px 20px)}
   .top .wrap{height:var(--header-h);display:flex;align-items:center;justify-content:space-between;gap:12px}
-  .brand img{height:38px;width:auto}
+  .brand{flex:0 1 210px;min-width:0}
+  .brand img{display:block;width:100%;height:auto}
+  @media (min-width:900px){:root{--header-h:76px}.brand{flex-basis:250px}}
   .nav{display:flex;align-items:center;gap:24px}
   .nav .nl{font:700 17px/1 var(--cond);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:8px 0;border-bottom:2px solid transparent}
   .nav .nl.on{color:var(--text);border-bottom-color:var(--y)}
@@ -102,7 +104,7 @@
   .order-btn b,.bar .b2 b{display:inline-grid;place-items:center;min-width:24px;height:24px;padding:0 6px;background:var(--y);color:var(--ink);font:800 16px/1 var(--cond)}
   .pop{animation:pop .4s var(--snap)}
   @keyframes pop{40%{transform:scale(1.35)}}
-  .call{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;background:var(--y);color:var(--ink);font:800 19px/1 var(--cond);letter-spacing:.04em;text-decoration:none;clip-path:polygon(0 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%);transition:transform .12s var(--snap)}
+  .call{display:inline-flex;flex:none;white-space:nowrap;align-items:center;gap:8px;min-height:44px;padding:0 14px;background:var(--y);color:var(--ink);font:800 19px/1 var(--cond);letter-spacing:.04em;text-decoration:none;clip-path:polygon(0 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%);transition:transform .12s var(--snap)}
   .call:active{transform:scale(.96)}
   .only-lg{display:none!important}
   @media (min-width:1080px){.only-lg{display:inline-flex!important}}
@@ -451,7 +453,7 @@
 
 <header class="top" id="top">
   <div class="wrap">
-    <a class="brand" href="#start" aria-label="CAN – początek strony"><img src="img/logo.png" alt="CAN – Ziemia, Kruszywa, Usługi" width="505" height="145"></a>
+    <a class="brand" href="#start" aria-label="CAN – początek strony"><img src="img/logo-can.png" alt="CAN – Ziemia, Kruszywa, Usługi" width="478" height="93"></a>
     <nav class="nav" aria-label="Menu">
       <a class="nl only-lg" href="#materialy">Materiały</a>
       <a class="nl only-lg" href="#sprzet">Sprzęt i ekipa</a>
