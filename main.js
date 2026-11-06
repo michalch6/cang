@@ -426,4 +426,29 @@
   const stage = $('lb-stage');
   stage.addEventListener('pointerdown', (e) => { sx = e.clientX; });
   stage.addEventListener('pointerup', (e) => { if (sx === null) return; const dx = e.clientX - sx; sx = null; if (Math.abs(dx) > 50) show(li + (dx < 0 ? 1 : -1)); });
+
+  /* ---------- before / after slider (Compare, drag or arrow keys) ---------- */
+  const ba = $('ba');
+  if (ba) {
+    const range = ba.querySelector('.ba-range');
+    const state = { x: 50 };
+    let sweep = null;
+    const set = (v) => { state.x = Math.min(100, Math.max(0, v)); ba.style.setProperty('--x', state.x + '%'); range.value = Math.round(state.x); };
+    const stop = () => { if (sweep) { sweep.kill(); sweep = null; } };
+    const fromEvent = (e) => { const r = ba.getBoundingClientRect(); set(((e.clientX - r.left) / r.width) * 100); };
+    let down = false;
+    ba.addEventListener('pointerdown', (e) => { down = true; stop(); ba.setPointerCapture(e.pointerId); fromEvent(e); });
+    ba.addEventListener('pointermove', (e) => { if (down) fromEvent(e); });
+    ['pointerup', 'pointercancel'].forEach((t) => ba.addEventListener(t, () => { down = false; }));
+    range.addEventListener('input', () => { stop(); set(+range.value); });
+    if (motion) {
+      /* one short sweep shows that the photo can be moved */
+      ScrollTrigger.create({ trigger: ba, start: 'top 65%', once: true, onEnter: () => {
+        sweep = gsap.timeline({ onUpdate: () => set(state.x), delay: 0.5 })
+          .to(state, { x: 22, duration: 0.8, ease: 'power2.inOut' })
+          .to(state, { x: 78, duration: 1.1, ease: 'power2.inOut' })
+          .to(state, { x: 50, duration: 0.7, ease: 'power2.inOut' });
+      } });
+    }
+  }
 })();
